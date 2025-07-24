@@ -10,14 +10,7 @@ class WeaponRunner {
         w1.damage = 90;
         w1.isAutomatic = true;
         w1.manufacturer = "Kalashnikov Concern";
-        System.out.println("Weapon ID: " + w1.weaponId);
-        System.out.println("Name: " + w1.name);
-        System.out.println("Type: " + w1.type);
-        System.out.println("Weight: " + w1.weight);
-        System.out.println("Damage: " + w1.damage);
-        System.out.println("Automatic: " + w1.isAutomatic);
-        System.out.println("Manufacturer: " + w1.manufacturer);
-        System.out.println("--------------------");
+        w1.GetInfo();
 
         Weapon w2 = new Weapon();
         w2.weaponId = 2;
@@ -27,14 +20,8 @@ class WeaponRunner {
         w2.damage = 75;
         w2.isAutomatic = false;
         w2.manufacturer = "Japanese Smiths";
-        System.out.println("Weapon ID: " + w2.weaponId);
-        System.out.println("Name: " + w2.name);
-        System.out.println("Type: " + w2.type);
-        System.out.println("Weight: " + w2.weight);
-        System.out.println("Damage: " + w2.damage);
-        System.out.println("Automatic: " + w2.isAutomatic);
-        System.out.println("Manufacturer: " + w2.manufacturer);
-        System.out.println("--------------------");
+        w2.GetInfo();
+
 
         Weapon w3 = new Weapon();
         w3.weaponId = 3;
@@ -44,14 +31,8 @@ class WeaponRunner {
         w3.damage = 85;
         w3.isAutomatic = false;
         w3.manufacturer = "Magnum Research";
-        System.out.println("Weapon ID: " + w3.weaponId);
-        System.out.println("Name: " + w3.name);
-        System.out.println("Type: " + w3.type);
-        System.out.println("Weight: " + w3.weight);
-        System.out.println("Damage: " + w3.damage);
-        System.out.println("Automatic: " + w3.isAutomatic);
-        System.out.println("Manufacturer: " + w3.manufacturer);
-        System.out.println("--------------------");
+        w3.GetInfo();
+
 
         Weapon w4 = new Weapon();
         w4.weaponId = 4;
@@ -61,14 +42,8 @@ class WeaponRunner {
         w4.damage = 65;
         w4.isAutomatic = false;
         w4.manufacturer = "Cold Steel";
-        System.out.println("Weapon ID: " + w4.weaponId);
-        System.out.println("Name: " + w4.name);
-        System.out.println("Type: " + w4.type);
-        System.out.println("Weight: " + w4.weight);
-        System.out.println("Damage: " + w4.damage);
-        System.out.println("Automatic: " + w4.isAutomatic);
-        System.out.println("Manufacturer: " + w4.manufacturer);
-        System.out.println("--------------------");
+        w4.GetInfo();
+
 
         Weapon w5 = new Weapon();
         w5.weaponId = 5;
@@ -78,14 +53,8 @@ class WeaponRunner {
         w5.damage = 80;
         w5.isAutomatic = true;
         w5.manufacturer = "Heckler & Koch";
-        System.out.println("Weapon ID: " + w5.weaponId);
-        System.out.println("Name: " + w5.name);
-        System.out.println("Type: " + w5.type);
-        System.out.println("Weight: " + w5.weight);
-        System.out.println("Damage: " + w5.damage);
-        System.out.println("Automatic: " + w5.isAutomatic);
-        System.out.println("Manufacturer: " + w5.manufacturer);
-        System.out.println("--------------------");
+        w5.GetInfo();
+
 
         Weapon w6 = new Weapon();
         w6.weaponId = 6;
@@ -95,14 +64,8 @@ class WeaponRunner {
         w6.damage = 70;
         w6.isAutomatic = false;
         w6.manufacturer = "TenPoint";
-        System.out.println("Weapon ID: " + w6.weaponId);
-        System.out.println("Name: " + w6.name);
-        System.out.println("Type: " + w6.type);
-        System.out.println("Weight: " + w6.weight);
-        System.out.println("Damage: " + w6.damage);
-        System.out.println("Automatic: " + w6.isAutomatic);
-        System.out.println("Manufacturer: " + w6.manufacturer);
-        System.out.println("--------------------");
+        w6.GetInfo();
+
 
         Weapon w7 = new Weapon();
         w7.weaponId = 7;
@@ -112,14 +75,8 @@ class WeaponRunner {
         w7.damage = 60;
         w7.isAutomatic = false;
         w7.manufacturer = "Spanish Blades";
-        System.out.println("Weapon ID: " + w7.weaponId);
-        System.out.println("Name: " + w7.name);
-        System.out.println("Type: " + w7.type);
-        System.out.println("Weight: " + w7.weight);
-        System.out.println("Damage: " + w7.damage);
-        System.out.println("Automatic: " + w7.isAutomatic);
-        System.out.println("Manufacturer: " + w7.manufacturer);
-        System.out.println("--------------------");
+        w7.GetInfo();
+
 
         Weapon w8 = new Weapon();
         w8.weaponId = 8;
@@ -129,14 +86,8 @@ class WeaponRunner {
         w8.damage = 75;
         w8.isAutomatic = false;
         w8.manufacturer = "Glock GmbH";
-        System.out.println("Weapon ID: " + w8.weaponId);
-        System.out.println("Name: " + w8.name);
-        System.out.println("Type: " + w8.type);
-        System.out.println("Weight: " + w8.weight);
-        System.out.println("Damage: " + w8.damage);
-        System.out.println("Automatic: " + w8.isAutomatic);
-        System.out.println("Manufacturer: " + w8.manufacturer);
-        System.out.println("--------------------");
+        w8.GetInfo();
+
 
         Weapon w9 = new Weapon();
         w9.weaponId = 9;
@@ -146,14 +97,8 @@ class WeaponRunner {
         w9.damage = 70;
         w9.isAutomatic = false;
         w9.manufacturer = "Custom Blades";
-        System.out.println("Weapon ID: " + w9.weaponId);
-        System.out.println("Name: " + w9.name);
-        System.out.println("Type: " + w9.type);
-        System.out.println("Weight: " + w9.weight);
-        System.out.println("Damage: " + w9.damage);
-        System.out.println("Automatic: " + w9.isAutomatic);
-        System.out.println("Manufacturer: " + w9.manufacturer);
-        System.out.println("--------------------");
+        w9.GetInfo();
+
 
         Weapon w10 = new Weapon();
         w10.weaponId = 10;
@@ -163,14 +108,8 @@ class WeaponRunner {
         w10.damage = 85;
         w10.isAutomatic = true;
         w10.manufacturer = "Israel Military Industries";
-        System.out.println("Weapon ID: " + w10.weaponId);
-        System.out.println("Name: " + w10.name);
-        System.out.println("Type: " + w10.type);
-        System.out.println("Weight: " + w10.weight);
-        System.out.println("Damage: " + w10.damage);
-        System.out.println("Automatic: " + w10.isAutomatic);
-        System.out.println("Manufacturer: " + w10.manufacturer);
-        System.out.println("--------------------");
+        w10.GetInfo();
+
 
         Weapon w11 = new Weapon();
         w11.weaponId = 11;
@@ -180,14 +119,8 @@ class WeaponRunner {
         w11.damage = 65;
         w11.isAutomatic = false;
         w11.manufacturer = "Ancient Weapons Co.";
-        System.out.println("Weapon ID: " + w11.weaponId);
-        System.out.println("Name: " + w11.name);
-        System.out.println("Type: " + w11.type);
-        System.out.println("Weight: " + w11.weight);
-        System.out.println("Damage: " + w11.damage);
-        System.out.println("Automatic: " + w11.isAutomatic);
-        System.out.println("Manufacturer: " + w11.manufacturer);
-        System.out.println("--------------------");
+        w11.GetInfo();
+
 
         Weapon w12 = new Weapon();
         w12.weaponId = 12;
@@ -197,14 +130,8 @@ class WeaponRunner {
         w12.damage = 80;
         w12.isAutomatic = false;
         w12.manufacturer = "Smith & Wesson";
-        System.out.println("Weapon ID: " + w12.weaponId);
-        System.out.println("Name: " + w12.name);
-        System.out.println("Type: " + w12.type);
-        System.out.println("Weight: " + w12.weight);
-        System.out.println("Damage: " + w12.damage);
-        System.out.println("Automatic: " + w12.isAutomatic);
-        System.out.println("Manufacturer: " + w12.manufacturer);
-        System.out.println("--------------------");
+        w12.GetInfo();
+
 
         Weapon w13 = new Weapon();
         w13.weaponId = 13;
@@ -214,14 +141,8 @@ class WeaponRunner {
         w13.damage = 90;
         w13.isAutomatic = false;
         w13.manufacturer = "Viking Arms";
-        System.out.println("Weapon ID: " + w13.weaponId);
-        System.out.println("Name: " + w13.name);
-        System.out.println("Type: " + w13.type);
-        System.out.println("Weight: " + w13.weight);
-        System.out.println("Damage: " + w13.damage);
-        System.out.println("Automatic: " + w13.isAutomatic);
-        System.out.println("Manufacturer: " + w13.manufacturer);
-        System.out.println("--------------------");
+        w13.GetInfo();
+
 
         Weapon w14 = new Weapon();
         w14.weaponId = 14;
@@ -231,14 +152,8 @@ class WeaponRunner {
         w14.damage = 95;
         w14.isAutomatic = false;
         w14.manufacturer = "Remington";
-        System.out.println("Weapon ID: " + w14.weaponId);
-        System.out.println("Name: " + w14.name);
-        System.out.println("Type: " + w14.type);
-        System.out.println("Weight: " + w14.weight);
-        System.out.println("Damage: " + w14.damage);
-        System.out.println("Automatic: " + w14.isAutomatic);
-        System.out.println("Manufacturer: " + w14.manufacturer);
-        System.out.println("--------------------");
+        w14.GetInfo();
+
 
         Weapon w15 = new Weapon();
         w15.weaponId = 15;
@@ -248,14 +163,8 @@ class WeaponRunner {
         w15.damage = 100;
         w15.isAutomatic = true;
         w15.manufacturer = "Military Tech";
-        System.out.println("Weapon ID: " + w15.weaponId);
-        System.out.println("Name: " + w15.name);
-        System.out.println("Type: " + w15.type);
-        System.out.println("Weight: " + w15.weight);
-        System.out.println("Damage: " + w15.damage);
-        System.out.println("Automatic: " + w15.isAutomatic);
-        System.out.println("Manufacturer: " + w15.manufacturer);
-        System.out.println("--------------------");
+        w15.GetInfo();
+
 
         Weapon w16 = new Weapon();
         w16.weaponId = 16;
@@ -265,14 +174,8 @@ class WeaponRunner {
         w16.damage = 85;
         w16.isAutomatic = false;
         w16.manufacturer = "Medieval Weapons Ltd";
-        System.out.println("Weapon ID: " + w16.weaponId);
-        System.out.println("Name: " + w16.name);
-        System.out.println("Type: " + w16.type);
-        System.out.println("Weight: " + w16.weight);
-        System.out.println("Damage: " + w16.damage);
-        System.out.println("Automatic: " + w16.isAutomatic);
-        System.out.println("Manufacturer: " + w16.manufacturer);
-        System.out.println("--------------------");
+       w16.GetInfo();
+
 
         Weapon w17 = new Weapon();
         w17.weaponId = 17;
@@ -282,14 +185,8 @@ class WeaponRunner {
         w17.damage = 70;
         w17.isAutomatic = false;
         w17.manufacturer = "PistolTech";
-        System.out.println("Weapon ID: " + w17.weaponId);
-        System.out.println("Name: " + w17.name);
-        System.out.println("Type: " + w17.type);
-        System.out.println("Weight: " + w17.weight);
-        System.out.println("Damage: " + w17.damage);
-        System.out.println("Automatic: " + w17.isAutomatic);
-        System.out.println("Manufacturer: " + w17.manufacturer);
-        System.out.println("--------------------");
+       w17.GetInfo();
+
 
         Weapon w18 = new Weapon();
         w18.weaponId = 18;
@@ -299,14 +196,8 @@ class WeaponRunner {
         w18.damage = 90;
         w18.isAutomatic = false;
         w18.manufacturer = "Scottish Arms";
-        System.out.println("Weapon ID: " + w18.weaponId);
-        System.out.println("Name: " + w18.name);
-        System.out.println("Type: " + w18.type);
-        System.out.println("Weight: " + w18.weight);
-        System.out.println("Damage: " + w18.damage);
-        System.out.println("Automatic: " + w18.isAutomatic);
-        System.out.println("Manufacturer: " + w18.manufacturer);
-        System.out.println("--------------------");
+        w18.GetInfo();
+
 
         Weapon w19 = new Weapon();
         w19.weaponId = 19;
@@ -316,14 +207,8 @@ class WeaponRunner {
         w19.damage = 40;
         w19.isAutomatic = false;
         w19.manufacturer = "StunTech";
-        System.out.println("Weapon ID: " + w19.weaponId);
-        System.out.println("Name: " + w19.name);
-        System.out.println("Type: " + w19.type);
-        System.out.println("Weight: " + w19.weight);
-        System.out.println("Damage: " + w19.damage);
-        System.out.println("Automatic: " + w19.isAutomatic);
-        System.out.println("Manufacturer: " + w19.manufacturer);
-        System.out.println("--------------------");
+        w19.GetInfo();
+
 
         Weapon w20 = new Weapon();
         w20.weaponId = 20;
@@ -333,14 +218,8 @@ class WeaponRunner {
         w20.damage = 100;
         w20.isAutomatic = false;
         w20.manufacturer = "Ordnance Corp";
-        System.out.println("Weapon ID: " + w20.weaponId);
-        System.out.println("Name: " + w20.name);
-        System.out.println("Type: " + w20.type);
-        System.out.println("Weight: " + w20.weight);
-        System.out.println("Damage: " + w20.damage);
-        System.out.println("Automatic: " + w20.isAutomatic);
-        System.out.println("Manufacturer: " + w20.manufacturer);
-        System.out.println("--------------------");
+        w20.GetInfo();
+
 
         System.out.println("THE MAIN ENDED");
     }

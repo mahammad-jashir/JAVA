@@ -12,14 +12,7 @@ class HatRunner {
         h1.size = 58.0;
         h1.isAdjustable = true;
         h1.brand = "Nike";
-        System.out.println("Hat ID: " + h1.hatId);
-        System.out.println("Type: " + h1.type);
-        System.out.println("Color: " + h1.color);
-        System.out.println("Material: " + h1.material);
-        System.out.println("Size: " + h1.size);
-        System.out.println("Adjustable: " + h1.isAdjustable);
-        System.out.println("Brand: " + h1.brand);
-        System.out.println("---------------");
+        h1.GetInfo();
 
         Hat h2 = new Hat();
         h2.hatId = 2;
@@ -29,14 +22,7 @@ class HatRunner {
         h2.size = 56.5;
         h2.isAdjustable = false;
         h2.brand = "Adidas";
-        System.out.println("Hat ID: " + h2.hatId);
-        System.out.println("Type: " + h2.type);
-        System.out.println("Color: " + h2.color);
-        System.out.println("Material: " + h2.material);
-        System.out.println("Size: " + h2.size);
-        System.out.println("Adjustable: " + h2.isAdjustable);
-        System.out.println("Brand: " + h2.brand);
-        System.out.println("---------------");
+        h2.GetInfo();
 
         Hat h3 = new Hat();
         h3.hatId = 3;
@@ -46,14 +32,7 @@ class HatRunner {
         h3.size = 59.0;
         h3.isAdjustable = false;
         h3.brand = "Zara";
-        System.out.println("Hat ID: " + h3.hatId);
-        System.out.println("Type: " + h3.type);
-        System.out.println("Color: " + h3.color);
-        System.out.println("Material: " + h3.material);
-        System.out.println("Size: " + h3.size);
-        System.out.println("Adjustable: " + h3.isAdjustable);
-        System.out.println("Brand: " + h3.brand);
-        System.out.println("---------------");
+        h3.GetInfo();
 
         Hat h4 = new Hat();
         h4.hatId = 4;
@@ -63,14 +42,7 @@ class HatRunner {
         h4.size = 60.0;
         h4.isAdjustable = true;
         h4.brand = "Puma";
-        System.out.println("Hat ID: " + h4.hatId);
-        System.out.println("Type: " + h4.type);
-        System.out.println("Color: " + h4.color);
-        System.out.println("Material: " + h4.material);
-        System.out.println("Size: " + h4.size);
-        System.out.println("Adjustable: " + h4.isAdjustable);
-        System.out.println("Brand: " + h4.brand);
-        System.out.println("---------------");
+        h4.GetInfo();
 
         Hat h5 = new Hat();
         h5.hatId = 5;
@@ -80,16 +52,9 @@ class HatRunner {
         h5.size = 57.0;
         h5.isAdjustable = false;
         h5.brand = "Uniqlo";
-        System.out.println("Hat ID: " + h5.hatId);
-        System.out.println("Type: " + h5.type);
-        System.out.println("Color: " + h5.color);
-        System.out.println("Material: " + h5.material);
-        System.out.println("Size: " + h5.size);
-        System.out.println("Adjustable: " + h5.isAdjustable);
-        System.out.println("Brand: " + h5.brand);
-        System.out.println("---------------");
+        h5.GetInfo();
  
-                Hat h6 = new Hat();
+        Hat h6 = new Hat();
         h6.hatId = 6;
         h6.type = "Cowboy";
         h6.color = "Tan";
@@ -97,14 +62,7 @@ class HatRunner {
         h6.size = 61.0;
         h6.isAdjustable = false;
         h6.brand = "Wrangler";
-        System.out.println("Hat ID: " + h6.hatId);
-        System.out.println("Type: " + h6.type);
-        System.out.println("Color: " + h6.color);
-        System.out.println("Material: " + h6.material);
-        System.out.println("Size: " + h6.size);
-        System.out.println("Adjustable: " + h6.isAdjustable);
-        System.out.println("Brand: " + h6.brand);
-        System.out.println("---------------");
+        h6.GetInfo();
 
         Hat h7 = new Hat();
         h7.hatId = 7;
@@ -114,14 +72,7 @@ class HatRunner {
         h7.size = 60.5;
         h7.isAdjustable = false;
         h7.brand = "VintageWear";
-        System.out.println("Hat ID: " + h7.hatId);
-        System.out.println("Type: " + h7.type);
-        System.out.println("Color: " + h7.color);
-        System.out.println("Material: " + h7.material);
-        System.out.println("Size: " + h7.size);
-        System.out.println("Adjustable: " + h7.isAdjustable);
-        System.out.println("Brand: " + h7.brand);
-        System.out.println("---------------");
+        h7.GetInfo();
 
         Hat h8 = new Hat();
         h8.hatId = 8;
@@ -131,14 +82,7 @@ class HatRunner {
         h8.size = 55.0;
         h8.isAdjustable = false;
         h8.brand = "FrenchStyle";
-        System.out.println("Hat ID: " + h8.hatId);
-        System.out.println("Type: " + h8.type);
-        System.out.println("Color: " + h8.color);
-        System.out.println("Material: " + h8.material);
-        System.out.println("Size: " + h8.size);
-        System.out.println("Adjustable: " + h8.isAdjustable);
-        System.out.println("Brand: " + h8.brand);
-        System.out.println("---------------");
+        h8.GetInfo();
 
         Hat h9 = new Hat();
         h9.hatId = 9;
@@ -148,14 +92,7 @@ class HatRunner {
         h9.size = 58.5;
         h9.isAdjustable = false;
         h9.brand = "UrbanStyle";
-        System.out.println("Hat ID: " + h9.hatId);
-        System.out.println("Type: " + h9.type);
-        System.out.println("Color: " + h9.color);
-        System.out.println("Material: " + h9.material);
-        System.out.println("Size: " + h9.size);
-        System.out.println("Adjustable: " + h9.isAdjustable);
-        System.out.println("Brand: " + h9.brand);
-        System.out.println("---------------");
+        h9.GetInfo();
 
         Hat h10 = new Hat();
         h10.hatId = 10;
@@ -165,14 +102,7 @@ class HatRunner {
         h10.size = 59.5;
         h10.isAdjustable = true;
         h10.brand = "BeachWear";
-        System.out.println("Hat ID: " + h10.hatId);
-        System.out.println("Type: " + h10.type);
-        System.out.println("Color: " + h10.color);
-        System.out.println("Material: " + h10.material);
-        System.out.println("Size: " + h10.size);
-        System.out.println("Adjustable: " + h10.isAdjustable);
-        System.out.println("Brand: " + h10.brand);
-        System.out.println("---------------");
+        h10.GetInfo();
 
         Hat h11 = new Hat();
         h11.hatId = 11;
@@ -182,14 +112,7 @@ class HatRunner {
         h11.size = 57.0;
         h11.isAdjustable = false;
         h11.brand = "RetroCo";
-        System.out.println("Hat ID: " + h11.hatId);
-        System.out.println("Type: " + h11.type);
-        System.out.println("Color: " + h11.color);
-        System.out.println("Material: " + h11.material);
-        System.out.println("Size: " + h11.size);
-        System.out.println("Adjustable: " + h11.isAdjustable);
-        System.out.println("Brand: " + h11.brand);
-        System.out.println("---------------");
+        h11.GetInfo();
 
         Hat h12 = new Hat();
         h12.hatId = 12;
@@ -199,14 +122,7 @@ class HatRunner {
         h12.size = 58.0;
         h12.isAdjustable = true;
         h12.brand = "StreetWear";
-        System.out.println("Hat ID: " + h12.hatId);
-        System.out.println("Type: " + h12.type);
-        System.out.println("Color: " + h12.color);
-        System.out.println("Material: " + h12.material);
-        System.out.println("Size: " + h12.size);
-        System.out.println("Adjustable: " + h12.isAdjustable);
-        System.out.println("Brand: " + h12.brand);
-        System.out.println("---------------");
+        h12.GetInfo();
 
         Hat h13 = new Hat();
         h13.hatId = 13;
@@ -216,14 +132,7 @@ class HatRunner {
         h13.size = 56.0;
         h13.isAdjustable = false;
         h13.brand = "Vintage";
-        System.out.println("Hat ID: " + h13.hatId);
-        System.out.println("Type: " + h13.type);
-        System.out.println("Color: " + h13.color);
-        System.out.println("Material: " + h13.material);
-        System.out.println("Size: " + h13.size);
-        System.out.println("Adjustable: " + h13.isAdjustable);
-        System.out.println("Brand: " + h13.brand);
-        System.out.println("---------------");
+        h13.GetInfo();
 
         Hat h14 = new Hat();
         h14.hatId = 14;
@@ -233,14 +142,7 @@ class HatRunner {
         h14.size = 59.0;
         h14.isAdjustable = false;
         h14.brand = "ClassicWear";
-        System.out.println("Hat ID: " + h14.hatId);
-        System.out.println("Type: " + h14.type);
-        System.out.println("Color: " + h14.color);
-        System.out.println("Material: " + h14.material);
-        System.out.println("Size: " + h14.size);
-        System.out.println("Adjustable: " + h14.isAdjustable);
-        System.out.println("Brand: " + h14.brand);
-        System.out.println("---------------");
+       h14.GetInfo();
 
         Hat h15 = new Hat();
         h15.hatId = 15;
@@ -250,14 +152,7 @@ class HatRunner {
         h15.size = 60.0;
         h15.isAdjustable = true;
         h15.brand = "AdventureGear";
-        System.out.println("Hat ID: " + h15.hatId);
-        System.out.println("Type: " + h15.type);
-        System.out.println("Color: " + h15.color);
-        System.out.println("Material: " + h15.material);
-        System.out.println("Size: " + h15.size);
-        System.out.println("Adjustable: " + h15.isAdjustable);
-        System.out.println("Brand: " + h15.brand);
-        System.out.println("---------------");
+        h15.GetInfo();
 
         Hat h16 = new Hat();
         h16.hatId = 16;
@@ -267,14 +162,7 @@ class HatRunner {
         h16.size = 58.5;
         h16.isAdjustable = true;
         h16.brand = "Sporty";
-        System.out.println("Hat ID: " + h16.hatId);
-        System.out.println("Type: " + h16.type);
-        System.out.println("Color: " + h16.color);
-        System.out.println("Material: " + h16.material);
-        System.out.println("Size: " + h16.size);
-        System.out.println("Adjustable: " + h16.isAdjustable);
-        System.out.println("Brand: " + h16.brand);
-        System.out.println("---------------");
+        h16.GetInfo();
 
         Hat h17 = new Hat();
         h17.hatId = 17;
@@ -284,14 +172,7 @@ class HatRunner {
         h17.size = 61.5;
         h17.isAdjustable = false;
         h17.brand = "Traditional";
-        System.out.println("Hat ID: " + h17.hatId);
-        System.out.println("Type: " + h17.type);
-        System.out.println("Color: " + h17.color);
-        System.out.println("Material: " + h17.material);
-        System.out.println("Size: " + h17.size);
-        System.out.println("Adjustable: " + h17.isAdjustable);
-        System.out.println("Brand: " + h17.brand);
-        System.out.println("---------------");
+        h17.GetInfo();
 
         Hat h18 = new Hat();
         h18.hatId = 18;
@@ -301,14 +182,7 @@ class HatRunner {
         h18.size = 62.0;
         h18.isAdjustable = true;
         h18.brand = "SafetyFirst";
-        System.out.println("Hat ID: " + h18.hatId);
-        System.out.println("Type: " + h18.type);
-        System.out.println("Color: " + h18.color);
-        System.out.println("Material: " + h18.material);
-        System.out.println("Size: " + h18.size);
-        System.out.println("Adjustable: " + h18.isAdjustable);
-        System.out.println("Brand: " + h18.brand);
-        System.out.println("---------------");
+       h18.GetInfo();
 
         Hat h19 = new Hat();
         h19.hatId = 19;
@@ -318,14 +192,7 @@ class HatRunner {
         h19.size = 63.0;
         h19.isAdjustable = true;
         h19.brand = "KitchenKing";
-        System.out.println("Hat ID: " + h19.hatId);
-        System.out.println("Type: " + h19.type);
-        System.out.println("Color: " + h19.color);
-        System.out.println("Material: " + h19.material);
-        System.out.println("Size: " + h19.size);
-        System.out.println("Adjustable: " + h19.isAdjustable);
-        System.out.println("Brand: " + h19.brand);
-        System.out.println("---------------");
+        h19.GetInfo();
 
         Hat h20 = new Hat();
         h20.hatId = 20;
@@ -335,15 +202,7 @@ class HatRunner {
         h20.size = 60.5;
         h20.isAdjustable = true;
         h20.brand = "HolidayWear";
-        System.out.println("Hat ID: " + h20.hatId);
-        System.out.println("Type: " + h20.type);
-        System.out.println("Color: " + h20.color);
-        System.out.println("Material: " + h20.material);
-        System.out.println("Size: " + h20.size);
-        System.out.println("Adjustable: " + h20.isAdjustable);
-        System.out.println("Brand: " + h20.brand);
-        System.out.println("---------------");
-
+        h20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

@@ -1,9 +1,0 @@
-class AmusementPark {
-    int parkId;
-    String parkName;
-    String location;
-    int noOfRides;
-    double entryFee;
-    boolean hasWaterRides;
-    String openingTime;
-}

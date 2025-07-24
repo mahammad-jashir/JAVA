@@ -12,13 +12,7 @@ class CoinsRunner {
         coin1.yearOfMint = 2001;
         coin1.isRare = false;
         coin1.denomination = "1 Rupee";
-        System.out.println("Coin ID: " + coin1.coinId);
-        System.out.println("Country: " + coin1.country);
-        System.out.println("Metal: " + coin1.metal);
-        System.out.println("Weight: " + coin1.weight + "g");
-        System.out.println("Year of Mint: " + coin1.yearOfMint);
-        System.out.println("Is Rare: " + coin1.isRare);
-        System.out.println("Denomination: " + coin1.denomination);
+        coin1.GetInfo();
 
         Coins coin2 = new Coins();
         coin2.coinId = 2;
@@ -28,13 +22,7 @@ class CoinsRunner {
         coin2.yearOfMint = 1950;
         coin2.isRare = true;
         coin2.denomination = "Quarter Dollar";
-        System.out.println("Coin ID: " + coin2.coinId);
-        System.out.println("Country: " + coin2.country);
-        System.out.println("Metal: " + coin2.metal);
-        System.out.println("Weight: " + coin2.weight + "g");
-        System.out.println("Year of Mint: " + coin2.yearOfMint);
-        System.out.println("Is Rare: " + coin2.isRare);
-        System.out.println("Denomination: " + coin2.denomination);
+        coin2.GetInfo();
 
         Coins coin3 = new Coins();
         coin3.coinId = 3;
@@ -44,13 +32,7 @@ class CoinsRunner {
         coin3.yearOfMint = 1985;
         coin3.isRare = false;
         coin3.denomination = "50 Pence";
-        System.out.println("Coin ID: " + coin3.coinId);
-        System.out.println("Country: " + coin3.country);
-        System.out.println("Metal: " + coin3.metal);
-        System.out.println("Weight: " + coin3.weight + "g");
-        System.out.println("Year of Mint: " + coin3.yearOfMint);
-        System.out.println("Is Rare: " + coin3.isRare);
-        System.out.println("Denomination: " + coin3.denomination);
+        coin3.GetInfo();
 
         Coins coin4 = new Coins();
         coin4.coinId = 4;
@@ -60,13 +42,7 @@ class CoinsRunner {
         coin4.yearOfMint = 1942;
         coin4.isRare = true;
         coin4.denomination = "5 Pfennig";
-        System.out.println("Coin ID: " + coin4.coinId);
-        System.out.println("Country: " + coin4.country);
-        System.out.println("Metal: " + coin4.metal);
-        System.out.println("Weight: " + coin4.weight + "g");
-        System.out.println("Year of Mint: " + coin4.yearOfMint);
-        System.out.println("Is Rare: " + coin4.isRare);
-        System.out.println("Denomination: " + coin4.denomination);
+        coin4.GetInfo();
 
         Coins coin5 = new Coins();
         coin5.coinId = 5;
@@ -76,13 +52,7 @@ class CoinsRunner {
         coin5.yearOfMint = 2010;
         coin5.isRare = false;
         coin5.denomination = "2 Rupees";
-        System.out.println("Coin ID: " + coin5.coinId);
-        System.out.println("Country: " + coin5.country);
-        System.out.println("Metal: " + coin5.metal);
-        System.out.println("Weight: " + coin5.weight + "g");
-        System.out.println("Year of Mint: " + coin5.yearOfMint);
-        System.out.println("Is Rare: " + coin5.isRare);
-        System.out.println("Denomination: " + coin5.denomination);
+        coin5.GetInfo();
 
         Coins coin6 = new Coins();
         coin6.coinId = 6;
@@ -92,13 +62,7 @@ class CoinsRunner {
         coin6.yearOfMint = 1999;
         coin6.isRare = false;
         coin6.denomination = "10 Yen";
-        System.out.println("Coin ID: " + coin6.coinId);
-        System.out.println("Country: " + coin6.country);
-        System.out.println("Metal: " + coin6.metal);
-        System.out.println("Weight: " + coin6.weight + "g");
-        System.out.println("Year of Mint: " + coin6.yearOfMint);
-        System.out.println("Is Rare: " + coin6.isRare);
-        System.out.println("Denomination: " + coin6.denomination);
+        coin6.GetInfo();
 
         Coins coin7 = new Coins();
         coin7.coinId = 7;
@@ -108,13 +72,7 @@ class CoinsRunner {
         coin7.yearOfMint = 1920;
         coin7.isRare = true;
         coin7.denomination = "1 Franc";
-        System.out.println("Coin ID: " + coin7.coinId);
-        System.out.println("Country: " + coin7.country);
-        System.out.println("Metal: " + coin7.metal);
-        System.out.println("Weight: " + coin7.weight + "g");
-        System.out.println("Year of Mint: " + coin7.yearOfMint);
-        System.out.println("Is Rare: " + coin7.isRare);
-        System.out.println("Denomination: " + coin7.denomination);
+        coin7.GetInfo();
 
         Coins coin8 = new Coins();
         coin8.coinId = 8;
@@ -124,13 +82,7 @@ class CoinsRunner {
         coin8.yearOfMint = 2005;
         coin8.isRare = false;
         coin8.denomination = "5 Cents";
-        System.out.println("Coin ID: " + coin8.coinId);
-        System.out.println("Country: " + coin8.country);
-        System.out.println("Metal: " + coin8.metal);
-        System.out.println("Weight: " + coin8.weight + "g");
-        System.out.println("Year of Mint: " + coin8.yearOfMint);
-        System.out.println("Is Rare: " + coin8.isRare);
-        System.out.println("Denomination: " + coin8.denomination);
+        coin8.GetInfo();
 
         Coins coin9 = new Coins();
         coin9.coinId = 9;
@@ -140,13 +92,7 @@ class CoinsRunner {
         coin9.yearOfMint = 1900;
         coin9.isRare = true;
         coin9.denomination = "2 Lire";
-        System.out.println("Coin ID: " + coin9.coinId);
-        System.out.println("Country: " + coin9.country);
-        System.out.println("Metal: " + coin9.metal);
-        System.out.println("Weight: " + coin9.weight + "g");
-        System.out.println("Year of Mint: " + coin9.yearOfMint);
-        System.out.println("Is Rare: " + coin9.isRare);
-        System.out.println("Denomination: " + coin9.denomination);
+        coin9.GetInfo();
 
         Coins coin10 = new Coins();
         coin10.coinId = 10;
@@ -156,15 +102,9 @@ class CoinsRunner {
         coin10.yearOfMint = 1991;
         coin10.isRare = false;
         coin10.denomination = "1 Rouble";
-        System.out.println("Coin ID: " + coin10.coinId);
-        System.out.println("Country: " + coin10.country);
-        System.out.println("Metal: " + coin10.metal);
-        System.out.println("Weight: " + coin10.weight + "g");
-        System.out.println("Year of Mint: " + coin10.yearOfMint);
-        System.out.println("Is Rare: " + coin10.isRare);
-        System.out.println("Denomination: " + coin10.denomination);
+        coin10.GetInfo();
 
-               Coins coin11 = new Coins();
+        Coins coin11 = new Coins();
         coin11.coinId = 11;
         coin11.country = "China";
         coin11.metal = "Aluminium";
@@ -172,13 +112,7 @@ class CoinsRunner {
         coin11.yearOfMint = 1980;
         coin11.isRare = false;
         coin11.denomination = "1 Yuan";
-        System.out.println("Coin ID: " + coin11.coinId);
-        System.out.println("Country: " + coin11.country);
-        System.out.println("Metal: " + coin11.metal);
-        System.out.println("Weight: " + coin11.weight + "g");
-        System.out.println("Year of Mint: " + coin11.yearOfMint);
-        System.out.println("Is Rare: " + coin11.isRare);
-        System.out.println("Denomination: " + coin11.denomination);
+       coin11.GetInfo();
 
         Coins coin12 = new Coins();
         coin12.coinId = 12;
@@ -188,13 +122,7 @@ class CoinsRunner {
         coin12.yearOfMint = 1975;
         coin12.isRare = true;
         coin12.denomination = "50 Centavos";
-        System.out.println("Coin ID: " + coin12.coinId);
-        System.out.println("Country: " + coin12.country);
-        System.out.println("Metal: " + coin12.metal);
-        System.out.println("Weight: " + coin12.weight + "g");
-        System.out.println("Year of Mint: " + coin12.yearOfMint);
-        System.out.println("Is Rare: " + coin12.isRare);
-        System.out.println("Denomination: " + coin12.denomination);
+        coin12.GetInfo();
 
         Coins coin13 = new Coins();
         coin13.coinId = 13;
@@ -204,13 +132,7 @@ class CoinsRunner {
         coin13.yearOfMint = 1990;
         coin13.isRare = false;
         coin13.denomination = "1 Peso";
-        System.out.println("Coin ID: " + coin13.coinId);
-        System.out.println("Country: " + coin13.country);
-        System.out.println("Metal: " + coin13.metal);
-        System.out.println("Weight: " + coin13.weight + "g");
-        System.out.println("Year of Mint: " + coin13.yearOfMint);
-        System.out.println("Is Rare: " + coin13.isRare);
-        System.out.println("Denomination: " + coin13.denomination);
+        coin13.GetInfo();
 
         Coins coin14 = new Coins();
         coin14.coinId = 14;
@@ -220,13 +142,7 @@ class CoinsRunner {
         coin14.yearOfMint = 1966;
         coin14.isRare = true;
         coin14.denomination = "5 Pesetas";
-        System.out.println("Coin ID: " + coin14.coinId);
-        System.out.println("Country: " + coin14.country);
-        System.out.println("Metal: " + coin14.metal);
-        System.out.println("Weight: " + coin14.weight + "g");
-        System.out.println("Year of Mint: " + coin14.yearOfMint);
-        System.out.println("Is Rare: " + coin14.isRare);
-        System.out.println("Denomination: " + coin14.denomination);
+        coin14.GetInfo();
 
         Coins coin15 = new Coins();
         coin15.coinId = 15;
@@ -236,13 +152,7 @@ class CoinsRunner {
         coin15.yearOfMint = 2003;
         coin15.isRare = false;
         coin15.denomination = "10 Cents";
-        System.out.println("Coin ID: " + coin15.coinId);
-        System.out.println("Country: " + coin15.country);
-        System.out.println("Metal: " + coin15.metal);
-        System.out.println("Weight: " + coin15.weight + "g");
-        System.out.println("Year of Mint: " + coin15.yearOfMint);
-        System.out.println("Is Rare: " + coin15.isRare);
-        System.out.println("Denomination: " + coin15.denomination);
+        coin15.GetInfo();
 
         Coins coin16 = new Coins();
         coin16.coinId = 16;
@@ -252,13 +162,7 @@ class CoinsRunner {
         coin16.yearOfMint = 1935;
         coin16.isRare = true;
         coin16.denomination = "2 Francs";
-        System.out.println("Coin ID: " + coin16.coinId);
-        System.out.println("Country: " + coin16.country);
-        System.out.println("Metal: " + coin16.metal);
-        System.out.println("Weight: " + coin16.weight + "g");
-        System.out.println("Year of Mint: " + coin16.yearOfMint);
-        System.out.println("Is Rare: " + coin16.isRare);
-        System.out.println("Denomination: " + coin16.denomination);
+        coin16.GetInfo();
 
         Coins coin17 = new Coins();
         coin17.coinId = 17;
@@ -268,13 +172,7 @@ class CoinsRunner {
         coin17.yearOfMint = 2011;
         coin17.isRare = false;
         coin17.denomination = "2 Rand";
-        System.out.println("Coin ID: " + coin17.coinId);
-        System.out.println("Country: " + coin17.country);
-        System.out.println("Metal: " + coin17.metal);
-        System.out.println("Weight: " + coin17.weight + "g");
-        System.out.println("Year of Mint: " + coin17.yearOfMint);
-        System.out.println("Is Rare: " + coin17.isRare);
-        System.out.println("Denomination: " + coin17.denomination);
+        coin17.GetInfo();
 
         Coins coin18 = new Coins();
         coin18.coinId = 18;
@@ -284,13 +182,7 @@ class CoinsRunner {
         coin18.yearOfMint = 2000;
         coin18.isRare = false;
         coin18.denomination = "100 Won";
-        System.out.println("Coin ID: " + coin18.coinId);
-        System.out.println("Country: " + coin18.country);
-        System.out.println("Metal: " + coin18.metal);
-        System.out.println("Weight: " + coin18.weight + "g");
-        System.out.println("Year of Mint: " + coin18.yearOfMint);
-        System.out.println("Is Rare: " + coin18.isRare);
-        System.out.println("Denomination: " + coin18.denomination);
+        coin18.GetInfo();
 
         Coins coin19 = new Coins();
         coin19.coinId = 19;
@@ -300,13 +192,7 @@ class CoinsRunner {
         coin19.yearOfMint = 1995;
         coin19.isRare = false;
         coin19.denomination = "20 Cents";
-        System.out.println("Coin ID: " + coin19.coinId);
-        System.out.println("Country: " + coin19.country);
-        System.out.println("Metal: " + coin19.metal);
-        System.out.println("Weight: " + coin19.weight + "g");
-        System.out.println("Year of Mint: " + coin19.yearOfMint);
-        System.out.println("Is Rare: " + coin19.isRare);
-        System.out.println("Denomination: " + coin19.denomination);
+        coin19.GetInfo();
 
         Coins coin20 = new Coins();
         coin20.coinId = 20;
@@ -316,13 +202,7 @@ class CoinsRunner {
         coin20.yearOfMint = 1988;
         coin20.isRare = true;
         coin20.denomination = "1 Peso";
-        System.out.println("Coin ID: " + coin20.coinId);
-        System.out.println("Country: " + coin20.country);
-        System.out.println("Metal: " + coin20.metal);
-        System.out.println("Weight: " + coin20.weight + "g");
-        System.out.println("Year of Mint: " + coin20.yearOfMint);
-        System.out.println("Is Rare: " + coin20.isRare);
-        System.out.println("Denomination: " + coin20.denomination);
+       coin20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

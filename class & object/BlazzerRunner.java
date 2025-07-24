@@ -10,12 +10,7 @@ class BlazzerRunner {
         blazzer1.brand = "Peter England";
         blazzer1.price = 2499.99;
         blazzer1.hasInnerLining = true;
-        System.out.println("Size: " + blazzer1.size);
-        System.out.println("Color: " + blazzer1.color);
-        System.out.println("Fabric: " + blazzer1.fabric);
-        System.out.println("Brand: " + blazzer1.brand);
-        System.out.println("Price: " + blazzer1.price);
-        System.out.println("Has Inner Lining: " + blazzer1.hasInnerLining);
+        blazzer1.GetInfo();
 
         Blazzer blazzer2 = new Blazzer();
         blazzer2.size = 40;
@@ -24,12 +19,7 @@ class BlazzerRunner {
         blazzer2.brand = "Van Heusen";
         blazzer2.price = 2999.50;
         blazzer2.hasInnerLining = false;
-        System.out.println("Size: " + blazzer2.size);
-        System.out.println("Color: " + blazzer2.color);
-        System.out.println("Fabric: " + blazzer2.fabric);
-        System.out.println("Brand: " + blazzer2.brand);
-        System.out.println("Price: " + blazzer2.price);
-        System.out.println("Has Inner Lining: " + blazzer2.hasInnerLining);
+        blazzer2.GetInfo();
 
         Blazzer blazzer3 = new Blazzer();
         blazzer3.size = 42;
@@ -38,12 +28,8 @@ class BlazzerRunner {
         blazzer3.brand = "Zara";
         blazzer3.price = 3200.75;
         blazzer3.hasInnerLining = true;
-        System.out.println("Size: " + blazzer3.size);
-        System.out.println("Color: " + blazzer3.color);
-        System.out.println("Fabric: " + blazzer3.fabric);
-        System.out.println("Brand: " + blazzer3.brand);
-        System.out.println("Price: " + blazzer3.price);
-        System.out.println("Has Inner Lining: " + blazzer3.hasInnerLining);
+        blazzer3.GetInfo();
+
 
         Blazzer blazzer4 = new Blazzer();
         blazzer4.size = 36;
@@ -52,12 +38,7 @@ class BlazzerRunner {
         blazzer4.brand = "Raymond";
         blazzer4.price = 1800.00;
         blazzer4.hasInnerLining = false;
-        System.out.println("Size: " + blazzer4.size);
-        System.out.println("Color: " + blazzer4.color);
-        System.out.println("Fabric: " + blazzer4.fabric);
-        System.out.println("Brand: " + blazzer4.brand);
-        System.out.println("Price: " + blazzer4.price);
-        System.out.println("Has Inner Lining: " + blazzer4.hasInnerLining);
+        blazzer4.GetInfo();
 
         Blazzer blazzer5 = new Blazzer();
         blazzer5.size = 44;
@@ -66,12 +47,7 @@ class BlazzerRunner {
         blazzer5.brand = "Louis Philippe";
         blazzer5.price = 4100.99;
         blazzer5.hasInnerLining = true;
-        System.out.println("Size: " + blazzer5.size);
-        System.out.println("Color: " + blazzer5.color);
-        System.out.println("Fabric: " + blazzer5.fabric);
-        System.out.println("Brand: " + blazzer5.brand);
-        System.out.println("Price: " + blazzer5.price);
-        System.out.println("Has Inner Lining: " + blazzer5.hasInnerLining);
+        blazzer5.GetInfo();
 
         Blazzer blazzer6 = new Blazzer();
         blazzer6.size = 38;
@@ -80,12 +56,7 @@ class BlazzerRunner {
         blazzer6.brand = "Allen Solly";
         blazzer6.price = 2750.00;
         blazzer6.hasInnerLining = false;
-        System.out.println("Size: " + blazzer6.size);
-        System.out.println("Color: " + blazzer6.color);
-        System.out.println("Fabric: " + blazzer6.fabric);
-        System.out.println("Brand: " + blazzer6.brand);
-        System.out.println("Price: " + blazzer6.price);
-        System.out.println("Has Inner Lining: " + blazzer6.hasInnerLining);
+        blazzer6.GetInfo();
 
         Blazzer blazzer7 = new Blazzer();
         blazzer7.size = 40;
@@ -94,12 +65,7 @@ class BlazzerRunner {
         blazzer7.brand = "Blackberrys";
         blazzer7.price = 3200.00;
         blazzer7.hasInnerLining = true;
-        System.out.println("Size: " + blazzer7.size);
-        System.out.println("Color: " + blazzer7.color);
-        System.out.println("Fabric: " + blazzer7.fabric);
-        System.out.println("Brand: " + blazzer7.brand);
-        System.out.println("Price: " + blazzer7.price);
-        System.out.println("Has Inner Lining: " + blazzer7.hasInnerLining);
+        blazzer7.GetInfo();
 
         Blazzer blazzer8 = new Blazzer();
         blazzer8.size = 42;
@@ -108,12 +74,7 @@ class BlazzerRunner {
         blazzer8.brand = "H&M";
         blazzer8.price = 2899.00;
         blazzer8.hasInnerLining = false;
-        System.out.println("Size: " + blazzer8.size);
-        System.out.println("Color: " + blazzer8.color);
-        System.out.println("Fabric: " + blazzer8.fabric);
-        System.out.println("Brand: " + blazzer8.brand);
-        System.out.println("Price: " + blazzer8.price);
-        System.out.println("Has Inner Lining: " + blazzer8.hasInnerLining);
+        blazzer8.GetInfo();
 
         Blazzer blazzer9 = new Blazzer();
         blazzer9.size = 44;
@@ -122,12 +83,7 @@ class BlazzerRunner {
         blazzer9.brand = "FabIndia";
         blazzer9.price = 3300.75;
         blazzer9.hasInnerLining = true;
-        System.out.println("Size: " + blazzer9.size);
-        System.out.println("Color: " + blazzer9.color);
-        System.out.println("Fabric: " + blazzer9.fabric);
-        System.out.println("Brand: " + blazzer9.brand);
-        System.out.println("Price: " + blazzer9.price);
-        System.out.println("Has Inner Lining: " + blazzer9.hasInnerLining);
+         blazzer9.GetInfo();
 
         Blazzer blazzer10 = new Blazzer();
         blazzer10.size = 36;
@@ -136,27 +92,17 @@ class BlazzerRunner {
         blazzer10.brand = "Max";
         blazzer10.price = 1599.00;
         blazzer10.hasInnerLining = false;
-        System.out.println("Size: " + blazzer10.size);
-        System.out.println("Color: " + blazzer10.color);
-        System.out.println("Fabric: " + blazzer10.fabric);
-        System.out.println("Brand: " + blazzer10.brand);
-        System.out.println("Price: " + blazzer10.price);
-        System.out.println("Has Inner Lining: " + blazzer10.hasInnerLining);
+        blazzer10.GetInfo();
 
-               Blazzer blazzer11 = new Blazzer();
+        Blazzer blazzer11 = new Blazzer();
         blazzer11.size = 38;
         blazzer11.color = "Light Grey";
         blazzer11.fabric = "Wool";
         blazzer11.brand = "Park Avenue";
         blazzer11.price = 2950.00;
         blazzer11.hasInnerLining = true;
-        System.out.println("Size: " + blazzer11.size);
-        System.out.println("Color: " + blazzer11.color);
-        System.out.println("Fabric: " + blazzer11.fabric);
-        System.out.println("Brand: " + blazzer11.brand);
-        System.out.println("Price: " + blazzer11.price);
-        System.out.println("Has Inner Lining: " + blazzer11.hasInnerLining);
-
+        blazzer11.GetInfo();
+        
         Blazzer blazzer12 = new Blazzer();
         blazzer12.size = 40;
         blazzer12.color = "Brown";
@@ -164,12 +110,7 @@ class BlazzerRunner {
         blazzer12.brand = "Arrow";
         blazzer12.price = 2600.00;
         blazzer12.hasInnerLining = false;
-        System.out.println("Size: " + blazzer12.size);
-        System.out.println("Color: " + blazzer12.color);
-        System.out.println("Fabric: " + blazzer12.fabric);
-        System.out.println("Brand: " + blazzer12.brand);
-        System.out.println("Price: " + blazzer12.price);
-        System.out.println("Has Inner Lining: " + blazzer12.hasInnerLining);
+         blazzer12.GetInfo();
 
         Blazzer blazzer13 = new Blazzer();
         blazzer13.size = 42;
@@ -178,12 +119,7 @@ class BlazzerRunner {
         blazzer13.brand = "Indian Terrain";
         blazzer13.price = 3100.00;
         blazzer13.hasInnerLining = true;
-        System.out.println("Size: " + blazzer13.size);
-        System.out.println("Color: " + blazzer13.color);
-        System.out.println("Fabric: " + blazzer13.fabric);
-        System.out.println("Brand: " + blazzer13.brand);
-        System.out.println("Price: " + blazzer13.price);
-        System.out.println("Has Inner Lining: " + blazzer13.hasInnerLining);
+        blazzer13.GetInfo();
 
         Blazzer blazzer14 = new Blazzer();
         blazzer14.size = 44;
@@ -192,12 +128,7 @@ class BlazzerRunner {
         blazzer14.brand = "Mufti";
         blazzer14.price = 3450.00;
         blazzer14.hasInnerLining = true;
-        System.out.println("Size: " + blazzer14.size);
-        System.out.println("Color: " + blazzer14.color);
-        System.out.println("Fabric: " + blazzer14.fabric);
-        System.out.println("Brand: " + blazzer14.brand);
-        System.out.println("Price: " + blazzer14.price);
-        System.out.println("Has Inner Lining: " + blazzer14.hasInnerLining);
+        blazzer14.GetInfo();
 
         Blazzer blazzer15 = new Blazzer();
         blazzer15.size = 36;
@@ -206,12 +137,7 @@ class BlazzerRunner {
         blazzer15.brand = "Tommy Hilfiger";
         blazzer15.price = 4000.00;
         blazzer15.hasInnerLining = true;
-        System.out.println("Size: " + blazzer15.size);
-        System.out.println("Color: " + blazzer15.color);
-        System.out.println("Fabric: " + blazzer15.fabric);
-        System.out.println("Brand: " + blazzer15.brand);
-        System.out.println("Price: " + blazzer15.price);
-        System.out.println("Has Inner Lining: " + blazzer15.hasInnerLining);
+         blazzer15.GetInfo();
 
         Blazzer blazzer16 = new Blazzer();
         blazzer16.size = 38;
@@ -220,12 +146,7 @@ class BlazzerRunner {
         blazzer16.brand = "Indian Terrain";
         blazzer16.price = 2800.00;
         blazzer16.hasInnerLining = false;
-        System.out.println("Size: " + blazzer16.size);
-        System.out.println("Color: " + blazzer16.color);
-        System.out.println("Fabric: " + blazzer16.fabric);
-        System.out.println("Brand: " + blazzer16.brand);
-        System.out.println("Price: " + blazzer16.price);
-        System.out.println("Has Inner Lining: " + blazzer16.hasInnerLining);
+         blazzer16.GetInfo();
 
         Blazzer blazzer17 = new Blazzer();
         blazzer17.size = 40;
@@ -234,12 +155,7 @@ class BlazzerRunner {
         blazzer17.brand = "Raymond";
         blazzer17.price = 2650.00;
         blazzer17.hasInnerLining = true;
-        System.out.println("Size: " + blazzer17.size);
-        System.out.println("Color: " + blazzer17.color);
-        System.out.println("Fabric: " + blazzer17.fabric);
-        System.out.println("Brand: " + blazzer17.brand);
-        System.out.println("Price: " + blazzer17.price);
-        System.out.println("Has Inner Lining: " + blazzer17.hasInnerLining);
+         blazzer17.GetInfo();
 
         Blazzer blazzer18 = new Blazzer();
         blazzer18.size = 42;
@@ -248,12 +164,7 @@ class BlazzerRunner {
         blazzer18.brand = "Zara";
         blazzer18.price = 3899.99;
         blazzer18.hasInnerLining = true;
-        System.out.println("Size: " + blazzer18.size);
-        System.out.println("Color: " + blazzer18.color);
-        System.out.println("Fabric: " + blazzer18.fabric);
-        System.out.println("Brand: " + blazzer18.brand);
-        System.out.println("Price: " + blazzer18.price);
-        System.out.println("Has Inner Lining: " + blazzer18.hasInnerLining);
+        blazzer18.GetInfo();
 
         Blazzer blazzer19 = new Blazzer();
         blazzer19.size = 44;
@@ -262,12 +173,7 @@ class BlazzerRunner {
         blazzer19.brand = "Louis Philippe";
         blazzer19.price = 3550.00;
         blazzer19.hasInnerLining = false;
-        System.out.println("Size: " + blazzer19.size);
-        System.out.println("Color: " + blazzer19.color);
-        System.out.println("Fabric: " + blazzer19.fabric);
-        System.out.println("Brand: " + blazzer19.brand);
-        System.out.println("Price: " + blazzer19.price);
-        System.out.println("Has Inner Lining: " + blazzer19.hasInnerLining);
+        blazzer19.GetInfo();
 
         Blazzer blazzer20 = new Blazzer();
         blazzer20.size = 36;
@@ -276,12 +182,7 @@ class BlazzerRunner {
         blazzer20.brand = "Max";
         blazzer20.price = 1499.99;
         blazzer20.hasInnerLining = false;
-        System.out.println("Size: " + blazzer20.size);
-        System.out.println("Color: " + blazzer20.color);
-        System.out.println("Fabric: " + blazzer20.fabric);
-        System.out.println("Brand: " + blazzer20.brand);
-        System.out.println("Price: " + blazzer20.price);
-        System.out.println("Has Inner Lining: " + blazzer20.hasInnerLining);
+        blazzer20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

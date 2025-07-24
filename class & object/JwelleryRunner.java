@@ -12,13 +12,7 @@ class JwelleryRunner {
         j1.price = 32000.50;
         j1.isAntique = false;
         j1.designName = "Royal Bloom";
-        System.out.println("ID: " + j1.jwelleryId);
-        System.out.println("Type: " + j1.type);
-        System.out.println("Material: " + j1.material);
-        System.out.println("Weight: " + j1.weight + "g");
-        System.out.println("Price: ₹" + j1.price);
-        System.out.println("Antique: " + j1.isAntique);
-        System.out.println("Design: " + j1.designName);
+        j1.GetInfo();
 
         Jwellery j2 = new Jwellery();
         j2.jwelleryId = 2;
@@ -28,15 +22,9 @@ class JwelleryRunner {
         j2.price = 250000.00;
         j2.isAntique = true;
         j2.designName = "Queen’s Legacy";
-        System.out.println("ID: " + j2.jwelleryId);
-        System.out.println("Type: " + j2.type);
-        System.out.println("Material: " + j2.material);
-        System.out.println("Weight: " + j2.weight + "g");
-        System.out.println("Price: ₹" + j2.price);
-        System.out.println("Antique: " + j2.isAntique);
-        System.out.println("Design: " + j2.designName);
+        j2.GetInfo();
 
-                Jwellery j3 = new Jwellery();
+        Jwellery j3 = new Jwellery();
         j3.jwelleryId = 3;
         j3.type = "Bracelet";
         j3.material = "Silver";
@@ -44,13 +32,7 @@ class JwelleryRunner {
         j3.price = 7200.75;
         j3.isAntique = false;
         j3.designName = "Elegant Twist";
-        System.out.println("ID: " + j3.jwelleryId);
-        System.out.println("Type: " + j3.type);
-        System.out.println("Material: " + j3.material);
-        System.out.println("Weight: " + j3.weight + "g");
-        System.out.println("Price: ₹" + j3.price);
-        System.out.println("Antique: " + j3.isAntique);
-        System.out.println("Design: " + j3.designName);
+        j3.GetInfo();
 
         Jwellery j4 = new Jwellery();
         j4.jwelleryId = 4;
@@ -60,13 +42,7 @@ class JwelleryRunner {
         j4.price = 18500.50;
         j4.isAntique = false;
         j4.designName = "Pearl Drop";
-        System.out.println("ID: " + j4.jwelleryId);
-        System.out.println("Type: " + j4.type);
-        System.out.println("Material: " + j4.material);
-        System.out.println("Weight: " + j4.weight + "g");
-        System.out.println("Price: ₹" + j4.price);
-        System.out.println("Antique: " + j4.isAntique);
-        System.out.println("Design: " + j4.designName);
+        j4.GetInfo();
 
         Jwellery j5 = new Jwellery();
         j5.jwelleryId = 5;
@@ -76,13 +52,7 @@ class JwelleryRunner {
         j5.price = 50000.00;
         j5.isAntique = true;
         j5.designName = "Twilight";
-        System.out.println("ID: " + j5.jwelleryId);
-        System.out.println("Type: " + j5.type);
-        System.out.println("Material: " + j5.material);
-        System.out.println("Weight: " + j5.weight + "g");
-        System.out.println("Price: ₹" + j5.price);
-        System.out.println("Antique: " + j5.isAntique);
-        System.out.println("Design: " + j5.designName);
+        j5.GetInfo();
 
         Jwellery j6 = new Jwellery();
         j6.jwelleryId = 6;
@@ -92,13 +62,7 @@ class JwelleryRunner {
         j6.price = 19800.00;
         j6.isAntique = false;
         j6.designName = "Sunbeam";
-        System.out.println("ID: " + j6.jwelleryId);
-        System.out.println("Type: " + j6.type);
-        System.out.println("Material: " + j6.material);
-        System.out.println("Weight: " + j6.weight + "g");
-        System.out.println("Price: ₹" + j6.price);
-        System.out.println("Antique: " + j6.isAntique);
-        System.out.println("Design: " + j6.designName);
+        j6.GetInfo();
 
         Jwellery j7 = new Jwellery();
         j7.jwelleryId = 7;
@@ -108,13 +72,7 @@ class JwelleryRunner {
         j7.price = 4300.40;
         j7.isAntique = true;
         j7.designName = "Tribal Charm";
-        System.out.println("ID: " + j7.jwelleryId);
-        System.out.println("Type: " + j7.type);
-        System.out.println("Material: " + j7.material);
-        System.out.println("Weight: " + j7.weight + "g");
-        System.out.println("Price: ₹" + j7.price);
-        System.out.println("Antique: " + j7.isAntique);
-        System.out.println("Design: " + j7.designName);
+        j7.GetInfo();
 
         Jwellery j8 = new Jwellery();
         j8.jwelleryId = 8;
@@ -124,13 +82,7 @@ class JwelleryRunner {
         j8.price = 65000.00;
         j8.isAntique = false;
         j8.designName = "Royal Loop";
-        System.out.println("ID: " + j8.jwelleryId);
-        System.out.println("Type: " + j8.type);
-        System.out.println("Material: " + j8.material);
-        System.out.println("Weight: " + j8.weight + "g");
-        System.out.println("Price: ₹" + j8.price);
-        System.out.println("Antique: " + j8.isAntique);
-        System.out.println("Design: " + j8.designName);
+        j8.GetInfo();
 
         Jwellery j9 = new Jwellery();
         j9.jwelleryId = 9;
@@ -140,13 +92,7 @@ class JwelleryRunner {
         j9.price = 75000.99;
         j9.isAntique = true;
         j9.designName = "Crown Glory";
-        System.out.println("ID: " + j9.jwelleryId);
-        System.out.println("Type: " + j9.type);
-        System.out.println("Material: " + j9.material);
-        System.out.println("Weight: " + j9.weight + "g");
-        System.out.println("Price: ₹" + j9.price);
-        System.out.println("Antique: " + j9.isAntique);
-        System.out.println("Design: " + j9.designName);
+        j9.GetInfo();
 
         Jwellery j10 = new Jwellery();
         j10.jwelleryId = 10;
@@ -156,15 +102,9 @@ class JwelleryRunner {
         j10.price = 900.00;
         j10.isAntique = false;
         j10.designName = "Floral Crown";
-        System.out.println("ID: " + j10.jwelleryId);
-        System.out.println("Type: " + j10.type);
-        System.out.println("Material: " + j10.material);
-        System.out.println("Weight: " + j10.weight + "g");
-        System.out.println("Price: ₹" + j10.price);
-        System.out.println("Antique: " + j10.isAntique);
-        System.out.println("Design: " + j10.designName);
+        j10.GetInfo();
 
-               Jwellery j11 = new Jwellery();
+        Jwellery j11 = new Jwellery();
         j11.jwelleryId = 11;
         j11.type = "Earring";
         j11.material = "Platinum";
@@ -172,13 +112,7 @@ class JwelleryRunner {
         j11.price = 34500.0;
         j11.isAntique = false;
         j11.designName = "Platinum Drop";
-        System.out.println("ID: " + j11.jwelleryId);
-        System.out.println("Type: " + j11.type);
-        System.out.println("Material: " + j11.material);
-        System.out.println("Weight: " + j11.weight + "g");
-        System.out.println("Price: ₹" + j11.price);
-        System.out.println("Antique: " + j11.isAntique);
-        System.out.println("Design: " + j11.designName);
+        j11.GetInfo();
 
         Jwellery j12 = new Jwellery();
         j12.jwelleryId = 12;
@@ -188,13 +122,7 @@ class JwelleryRunner {
         j12.price = 112000.0;
         j12.isAntique = true;
         j12.designName = "Golden Peacock";
-        System.out.println("ID: " + j12.jwelleryId);
-        System.out.println("Type: " + j12.type);
-        System.out.println("Material: " + j12.material);
-        System.out.println("Weight: " + j12.weight + "g");
-        System.out.println("Price: ₹" + j12.price);
-        System.out.println("Antique: " + j12.isAntique);
-        System.out.println("Design: " + j12.designName);
+        j12.GetInfo();
 
         Jwellery j13 = new Jwellery();
         j13.jwelleryId = 13;
@@ -204,13 +132,7 @@ class JwelleryRunner {
         j13.price = 18000.0;
         j13.isAntique = false;
         j13.designName = "Lotus Touch";
-        System.out.println("ID: " + j13.jwelleryId);
-        System.out.println("Type: " + j13.type);
-        System.out.println("Material: " + j13.material);
-        System.out.println("Weight: " + j13.weight + "g");
-        System.out.println("Price: ₹" + j13.price);
-        System.out.println("Antique: " + j13.isAntique);
-        System.out.println("Design: " + j13.designName);
+        j13.GetInfo();
 
         Jwellery j14 = new Jwellery();
         j14.jwelleryId = 14;
@@ -220,13 +142,7 @@ class JwelleryRunner {
         j14.price = 56000.0;
         j14.isAntique = false;
         j14.designName = "Rose Shine";
-        System.out.println("ID: " + j14.jwelleryId);
-        System.out.println("Type: " + j14.type);
-        System.out.println("Material: " + j14.material);
-        System.out.println("Weight: " + j14.weight + "g");
-        System.out.println("Price: ₹" + j14.price);
-        System.out.println("Antique: " + j14.isAntique);
-        System.out.println("Design: " + j14.designName);
+        j14.GetInfo();
 
         Jwellery j15 = new Jwellery();
         j15.jwelleryId = 15;
@@ -236,13 +152,7 @@ class JwelleryRunner {
         j15.price = 1200.0;
         j15.isAntique = false;
         j15.designName = "Traditional Loop";
-        System.out.println("ID: " + j15.jwelleryId);
-        System.out.println("Type: " + j15.type);
-        System.out.println("Material: " + j15.material);
-        System.out.println("Weight: " + j15.weight + "g");
-        System.out.println("Price: ₹" + j15.price);
-        System.out.println("Antique: " + j15.isAntique);
-        System.out.println("Design: " + j15.designName);
+        j15.GetInfo();
 
         Jwellery j16 = new Jwellery();
         j16.jwelleryId = 16;
@@ -252,13 +162,7 @@ class JwelleryRunner {
         j16.price = 145000.0;
         j16.isAntique = true;
         j16.designName = "Crown Jewel";
-        System.out.println("ID: " + j16.jwelleryId);
-        System.out.println("Type: " + j16.type);
-        System.out.println("Material: " + j16.material);
-        System.out.println("Weight: " + j16.weight + "g");
-        System.out.println("Price: ₹" + j16.price);
-        System.out.println("Antique: " + j16.isAntique);
-        System.out.println("Design: " + j16.designName);
+        j16.GetInfo();
 
         Jwellery j17 = new Jwellery();
         j17.jwelleryId = 17;
@@ -268,13 +172,7 @@ class JwelleryRunner {
         j17.price = 30000.0;
         j17.isAntique = false;
         j17.designName = "Om Swirl";
-        System.out.println("ID: " + j17.jwelleryId);
-        System.out.println("Type: " + j17.type);
-        System.out.println("Material: " + j17.material);
-        System.out.println("Weight: " + j17.weight + "g");
-        System.out.println("Price: ₹" + j17.price);
-        System.out.println("Antique: " + j17.isAntique);
-        System.out.println("Design: " + j17.designName);
+        j17.GetInfo();
 
         Jwellery j18 = new Jwellery();
         j18.jwelleryId = 18;
@@ -284,13 +182,7 @@ class JwelleryRunner {
         j18.price = 175000.0;
         j18.isAntique = true;
         j18.designName = "Legacy Chain";
-        System.out.println("ID: " + j18.jwelleryId);
-        System.out.println("Type: " + j18.type);
-        System.out.println("Material: " + j18.material);
-        System.out.println("Weight: " + j18.weight + "g");
-        System.out.println("Price: ₹" + j18.price);
-        System.out.println("Antique: " + j18.isAntique);
-        System.out.println("Design: " + j18.designName);
+        j18.GetInfo();
 
         Jwellery j19 = new Jwellery();
         j19.jwelleryId = 19;
@@ -300,13 +192,7 @@ class JwelleryRunner {
         j19.price = 8700.0;
         j19.isAntique = false;
         j19.designName = "Dance Bell";
-        System.out.println("ID: " + j19.jwelleryId);
-        System.out.println("Type: " + j19.type);
-        System.out.println("Material: " + j19.material);
-        System.out.println("Weight: " + j19.weight + "g");
-        System.out.println("Price: ₹" + j19.price);
-        System.out.println("Antique: " + j19.isAntique);
-        System.out.println("Design: " + j19.designName);
+        j19.GetInfo();
 
         Jwellery j20 = new Jwellery();
         j20.jwelleryId = 20;
@@ -316,13 +202,7 @@ class JwelleryRunner {
         j20.price = 42000.0;
         j20.isAntique = false;
         j20.designName = "Bold Shine";
-        System.out.println("ID: " + j20.jwelleryId);
-        System.out.println("Type: " + j20.type);
-        System.out.println("Material: " + j20.material);
-        System.out.println("Weight: " + j20.weight + "g");
-        System.out.println("Price: ₹" + j20.price);
-        System.out.println("Antique: " + j20.isAntique);
-        System.out.println("Design: " + j20.designName);
+        j20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

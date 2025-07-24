@@ -6,5 +6,18 @@ class Rod {
     double diameter;        
     double weight;          
     boolean isHollow;      
-    String usage;           
+    String usage;
+
+public void GetInfo(){
+
+        System.out.println("ID: " +    rodId);
+        System.out.println("Material: " +    material);
+        System.out.println("Length: " +    length + "m");
+        System.out.println("Diameter: " +    diameter + "cm");
+        System.out.println("Weight: " +    weight + "kg");
+        System.out.println("Hollow: " +    isHollow);
+        System.out.println("Usage: " +    usage);
+
+           
+}
 }

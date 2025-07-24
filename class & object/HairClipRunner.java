@@ -12,13 +12,7 @@ class HairClipRunner {
         clip1.lengthInCm = 5.5;
         clip1.isDecorated = true;
         clip1.clipType = "Alligator";
-        System.out.println("Clip ID: " + clip1.clipId);
-        System.out.println("Brand: " + clip1.brand);
-        System.out.println("Material: " + clip1.material);
-        System.out.println("Color: " + clip1.color);
-        System.out.println("Length: " + clip1.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip1.isDecorated);
-        System.out.println("Type: " + clip1.clipType);
+        clip1.GetInfo();
 
         HairClip clip2 = new HairClip();
         clip2.clipId = 2;
@@ -28,13 +22,7 @@ class HairClipRunner {
         clip2.lengthInCm = 6.0;
         clip2.isDecorated = false;
         clip2.clipType = "Snap Clip";
-        System.out.println("Clip ID: " + clip2.clipId);
-        System.out.println("Brand: " + clip2.brand);
-        System.out.println("Material: " + clip2.material);
-        System.out.println("Color: " + clip2.color);
-        System.out.println("Length: " + clip2.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip2.isDecorated);
-        System.out.println("Type: " + clip2.clipType);
+        clip2.GetInfo();
 
         HairClip clip3 = new HairClip();
         clip3.clipId = 3;
@@ -44,13 +32,7 @@ class HairClipRunner {
         clip3.lengthInCm = 5.8;
         clip3.isDecorated = true;
         clip3.clipType = "Comb Clip";
-        System.out.println("Clip ID: " + clip3.clipId);
-        System.out.println("Brand: " + clip3.brand);
-        System.out.println("Material: " + clip3.material);
-        System.out.println("Color: " + clip3.color);
-        System.out.println("Length: " + clip3.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip3.isDecorated);
-        System.out.println("Type: " + clip3.clipType);
+        clip3.GetInfo();
 
         HairClip clip4 = new HairClip();
         clip4.clipId = 4;
@@ -60,13 +42,7 @@ class HairClipRunner {
         clip4.lengthInCm = 4.5;
         clip4.isDecorated = false;
         clip4.clipType = "Banana Clip";
-        System.out.println("Clip ID: " + clip4.clipId);
-        System.out.println("Brand: " + clip4.brand);
-        System.out.println("Material: " + clip4.material);
-        System.out.println("Color: " + clip4.color);
-        System.out.println("Length: " + clip4.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip4.isDecorated);
-        System.out.println("Type: " + clip4.clipType);
+        clip4.GetInfo();
 
         HairClip clip5 = new HairClip();
         clip5.clipId = 5;
@@ -76,13 +52,7 @@ class HairClipRunner {
         clip5.lengthInCm = 6.2;
         clip5.isDecorated = false;
         clip5.clipType = "Snap Clip";
-        System.out.println("Clip ID: " + clip5.clipId);
-        System.out.println("Brand: " + clip5.brand);
-        System.out.println("Material: " + clip5.material);
-        System.out.println("Color: " + clip5.color);
-        System.out.println("Length: " + clip5.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip5.isDecorated);
-        System.out.println("Type: " + clip5.clipType);
+        clip5.GetInfo();
 
         HairClip clip6 = new HairClip();
         clip6.clipId = 6;
@@ -92,13 +62,7 @@ class HairClipRunner {
         clip6.lengthInCm = 5.0;
         clip6.isDecorated = true;
         clip6.clipType = "Claw Clip";
-        System.out.println("Clip ID: " + clip6.clipId);
-        System.out.println("Brand: " + clip6.brand);
-        System.out.println("Material: " + clip6.material);
-        System.out.println("Color: " + clip6.color);
-        System.out.println("Length: " + clip6.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip6.isDecorated);
-        System.out.println("Type: " + clip6.clipType);
+        clip6.GetInfo();
 
         HairClip clip7 = new HairClip();
         clip7.clipId = 7;
@@ -108,13 +72,7 @@ class HairClipRunner {
         clip7.lengthInCm = 4.0;
         clip7.isDecorated = true;
         clip7.clipType = "Mini Clip";
-        System.out.println("Clip ID: " + clip7.clipId);
-        System.out.println("Brand: " + clip7.brand);
-        System.out.println("Material: " + clip7.material);
-        System.out.println("Color: " + clip7.color);
-        System.out.println("Length: " + clip7.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip7.isDecorated);
-        System.out.println("Type: " + clip7.clipType);
+        clip7.GetInfo();
 
         HairClip clip8 = new HairClip();
         clip8.clipId = 8;
@@ -124,13 +82,7 @@ class HairClipRunner {
         clip8.lengthInCm = 5.2;
         clip8.isDecorated = false;
         clip8.clipType = "Barrette";
-        System.out.println("Clip ID: " + clip8.clipId);
-        System.out.println("Brand: " + clip8.brand);
-        System.out.println("Material: " + clip8.material);
-        System.out.println("Color: " + clip8.color);
-        System.out.println("Length: " + clip8.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip8.isDecorated);
-        System.out.println("Type: " + clip8.clipType);
+        clip8.GetInfo();
 
         HairClip clip9 = new HairClip();
         clip9.clipId = 9;
@@ -140,13 +92,7 @@ class HairClipRunner {
         clip9.lengthInCm = 6.5;
         clip9.isDecorated = true;
         clip9.clipType = "Duckbill";
-        System.out.println("Clip ID: " + clip9.clipId);
-        System.out.println("Brand: " + clip9.brand);
-        System.out.println("Material: " + clip9.material);
-        System.out.println("Color: " + clip9.color);
-        System.out.println("Length: " + clip9.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip9.isDecorated);
-        System.out.println("Type: " + clip9.clipType);
+        clip9.GetInfo();
 
         HairClip clip10 = new HairClip();
         clip10.clipId = 10;
@@ -156,13 +102,7 @@ class HairClipRunner {
         clip10.lengthInCm = 4.9;
         clip10.isDecorated = false;
         clip10.clipType = "Sectioning Clip";
-        System.out.println("Clip ID: " + clip10.clipId);
-        System.out.println("Brand: " + clip10.brand);
-        System.out.println("Material: " + clip10.material);
-        System.out.println("Color: " + clip10.color);
-        System.out.println("Length: " + clip10.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip10.isDecorated);
-        System.out.println("Type: " + clip10.clipType);
+        clip10.GetInfo();
 
         HairClip clip11 = new HairClip();
         clip11.clipId = 11;
@@ -172,13 +112,7 @@ class HairClipRunner {
         clip11.lengthInCm = 5.3;
         clip11.isDecorated = true;
         clip11.clipType = "U-Clip";
-        System.out.println("Clip ID: " + clip11.clipId);
-        System.out.println("Brand: " + clip11.brand);
-        System.out.println("Material: " + clip11.material);
-        System.out.println("Color: " + clip11.color);
-        System.out.println("Length: " + clip11.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip11.isDecorated);
-        System.out.println("Type: " + clip11.clipType);
+        clip11.GetInfo();
 
         HairClip clip12 = new HairClip();
         clip12.clipId = 12;
@@ -188,13 +122,7 @@ class HairClipRunner {
         clip12.lengthInCm = 4.7;
         clip12.isDecorated = true;
         clip12.clipType = "Bobby Pin";
-        System.out.println("Clip ID: " + clip12.clipId);
-        System.out.println("Brand: " + clip12.brand);
-        System.out.println("Material: " + clip12.material);
-        System.out.println("Color: " + clip12.color);
-        System.out.println("Length: " + clip12.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip12.isDecorated);
-        System.out.println("Type: " + clip12.clipType);
+        clip12.GetInfo();
         
         HairClip clip13 = new HairClip();
         clip13.clipId = 13;
@@ -204,13 +132,7 @@ class HairClipRunner {
         clip13.lengthInCm = 5.1;
         clip13.isDecorated = true;
         clip13.clipType = "Butterfly Clip";
-        System.out.println("Clip ID: " + clip13.clipId);
-        System.out.println("Brand: " + clip13.brand);
-        System.out.println("Material: " + clip13.material);
-        System.out.println("Color: " + clip13.color);
-        System.out.println("Length: " + clip13.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip13.isDecorated);
-        System.out.println("Type: " + clip13.clipType);
+        clip13.GetInfo();
 
         HairClip clip14 = new HairClip();
         clip14.clipId = 14;
@@ -220,13 +142,7 @@ class HairClipRunner {
         clip14.lengthInCm = 6.4;
         clip14.isDecorated = false;
         clip14.clipType = "Alligator Clip";
-        System.out.println("Clip ID: " + clip14.clipId);
-        System.out.println("Brand: " + clip14.brand);
-        System.out.println("Material: " + clip14.material);
-        System.out.println("Color: " + clip14.color);
-        System.out.println("Length: " + clip14.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip14.isDecorated);
-        System.out.println("Type: " + clip14.clipType);
+        clip14.GetInfo();
 
         HairClip clip15 = new HairClip();
         clip15.clipId = 15;
@@ -236,13 +152,7 @@ class HairClipRunner {
         clip15.lengthInCm = 4.2;
         clip15.isDecorated = true;
         clip15.clipType = "Wave Clip";
-        System.out.println("Clip ID: " + clip15.clipId);
-        System.out.println("Brand: " + clip15.brand);
-        System.out.println("Material: " + clip15.material);
-        System.out.println("Color: " + clip15.color);
-        System.out.println("Length: " + clip15.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip15.isDecorated);
-        System.out.println("Type: " + clip15.clipType);
+        clip15.GetInfo();
 
         HairClip clip16 = new HairClip();
         clip16.clipId = 16;
@@ -252,13 +162,7 @@ class HairClipRunner {
         clip16.lengthInCm = 6.0;
         clip16.isDecorated = true;
         clip16.clipType = "Designer Clip";
-        System.out.println("Clip ID: " + clip16.clipId);
-        System.out.println("Brand: " + clip16.brand);
-        System.out.println("Material: " + clip16.material);
-        System.out.println("Color: " + clip16.color);
-        System.out.println("Length: " + clip16.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip16.isDecorated);
-        System.out.println("Type: " + clip16.clipType);
+        clip16.GetInfo();
 
         HairClip clip17 = new HairClip();
         clip17.clipId = 17;
@@ -268,13 +172,7 @@ class HairClipRunner {
         clip17.lengthInCm = 5.5;
         clip17.isDecorated = false;
         clip17.clipType = "Flat Clip";
-        System.out.println("Clip ID: " + clip17.clipId);
-        System.out.println("Brand: " + clip17.brand);
-        System.out.println("Material: " + clip17.material);
-        System.out.println("Color: " + clip17.color);
-        System.out.println("Length: " + clip17.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip17.isDecorated);
-        System.out.println("Type: " + clip17.clipType);
+        clip17.GetInfo();
 
         HairClip clip18 = new HairClip();
         clip18.clipId = 18;
@@ -284,13 +182,7 @@ class HairClipRunner {
         clip18.lengthInCm = 5.6;
         clip18.isDecorated = true;
         clip18.clipType = "Fan Clip";
-        System.out.println("Clip ID: " + clip18.clipId);
-        System.out.println("Brand: " + clip18.brand);
-        System.out.println("Material: " + clip18.material);
-        System.out.println("Color: " + clip18.color);
-        System.out.println("Length: " + clip18.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip18.isDecorated);
-        System.out.println("Type: " + clip18.clipType);
+        clip18.GetInfo();
 
         HairClip clip19 = new HairClip();
         clip19.clipId = 19;
@@ -300,13 +192,7 @@ class HairClipRunner {
         clip19.lengthInCm = 4.4;
         clip19.isDecorated = false;
         clip19.clipType = "Clamp Clip";
-        System.out.println("Clip ID: " + clip19.clipId);
-        System.out.println("Brand: " + clip19.brand);
-        System.out.println("Material: " + clip19.material);
-        System.out.println("Color: " + clip19.color);
-        System.out.println("Length: " + clip19.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip19.isDecorated);
-        System.out.println("Type: " + clip19.clipType);
+       clip19.GetInfo();
 
         HairClip clip20 = new HairClip();
         clip20.clipId = 20;
@@ -316,12 +202,6 @@ class HairClipRunner {
         clip20.lengthInCm = 6.1;
         clip20.isDecorated = true;
         clip20.clipType = "Spiral Clip";
-        System.out.println("Clip ID: " + clip20.clipId);
-        System.out.println("Brand: " + clip20.brand);
-        System.out.println("Material: " + clip20.material);
-        System.out.println("Color: " + clip20.color);
-        System.out.println("Length: " + clip20.lengthInCm + " cm");
-        System.out.println("Decorated: " + clip20.isDecorated);
-        System.out.println("Type: " + clip20.clipType);
+       clip20.GetInfo();
 }
 }

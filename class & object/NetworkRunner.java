@@ -11,13 +11,7 @@ class NetworkRunner {
         n1.speedMbps = 1000.0;
         n1.isUnlimited = true;
         n1.monthlyCost = 599.0;
-        System.out.println("Network ID: " + n1.networkId);
-        System.out.println("Provider Name: " + n1.providerName);
-        System.out.println("Country: " + n1.country);
-        System.out.println("Network Type: " + n1.networkType);
-        System.out.println("Speed (Mbps): " + n1.speedMbps);
-        System.out.println("Is Unlimited: " + n1.isUnlimited);
-        System.out.println("Monthly Cost: " + n1.monthlyCost);
+        n1.GetInfo();
 
         Network n2 = new Network();
         n2.networkId = 2;
@@ -27,13 +21,7 @@ class NetworkRunner {
         n2.speedMbps = 950.0;
         n2.isUnlimited = true;
         n2.monthlyCost = 699.0;
-        System.out.println("Network ID: " + n2.networkId);
-        System.out.println("Provider Name: " + n2.providerName);
-        System.out.println("Country: " + n2.country);
-        System.out.println("Network Type: " + n2.networkType);
-        System.out.println("Speed (Mbps): " + n2.speedMbps);
-        System.out.println("Is Unlimited: " + n2.isUnlimited);
-        System.out.println("Monthly Cost: " + n2.monthlyCost);
+        n2.GetInfo();
 
         Network n3 = new Network();
         n3.networkId = 3;
@@ -43,15 +31,9 @@ class NetworkRunner {
         n3.speedMbps = 300.0;
         n3.isUnlimited = false;
         n3.monthlyCost = 449.0;
-        System.out.println("Network ID: " + n3.networkId);
-        System.out.println("Provider Name: " + n3.providerName);
-        System.out.println("Country: " + n3.country);
-        System.out.println("Network Type: " + n3.networkType);
-        System.out.println("Speed (Mbps): " + n3.speedMbps);
-        System.out.println("Is Unlimited: " + n3.isUnlimited);
-        System.out.println("Monthly Cost: " + n3.monthlyCost);
+        n3.GetInfo();
 
-                Network n4 = new Network();
+        Network n4 = new Network();
         n4.networkId = 4;
         n4.providerName = "BSNL";
         n4.country = "India";
@@ -59,13 +41,7 @@ class NetworkRunner {
         n4.speedMbps = 80.0;
         n4.isUnlimited = false;
         n4.monthlyCost = 399.0;
-        System.out.println("Network ID: " + n4.networkId);
-        System.out.println("Provider Name: " + n4.providerName);
-        System.out.println("Country: " + n4.country);
-        System.out.println("Network Type: " + n4.networkType);
-        System.out.println("Speed (Mbps): " + n4.speedMbps);
-        System.out.println("Is Unlimited: " + n4.isUnlimited);
-        System.out.println("Monthly Cost: " + n4.monthlyCost);
+        n4.GetInfo();
 
         Network n5 = new Network();
         n5.networkId = 5;
@@ -75,13 +51,7 @@ class NetworkRunner {
         n5.speedMbps = 1200.0;
         n5.isUnlimited = true;
         n5.monthlyCost = 799.0;
-        System.out.println("Network ID: " + n5.networkId);
-        System.out.println("Provider Name: " + n5.providerName);
-        System.out.println("Country: " + n5.country);
-        System.out.println("Network Type: " + n5.networkType);
-        System.out.println("Speed (Mbps): " + n5.speedMbps);
-        System.out.println("Is Unlimited: " + n5.isUnlimited);
-        System.out.println("Monthly Cost: " + n5.monthlyCost);
+        n5.GetInfo();
 
         Network n6 = new Network();
         n6.networkId = 6;
@@ -91,13 +61,7 @@ class NetworkRunner {
         n6.speedMbps = 1400.0;
         n6.isUnlimited = true;
         n6.monthlyCost = 999.0;
-        System.out.println("Network ID: " + n6.networkId);
-        System.out.println("Provider Name: " + n6.providerName);
-        System.out.println("Country: " + n6.country);
-        System.out.println("Network Type: " + n6.networkType);
-        System.out.println("Speed (Mbps): " + n6.speedMbps);
-        System.out.println("Is Unlimited: " + n6.isUnlimited);
-        System.out.println("Monthly Cost: " + n6.monthlyCost);
+        n6.GetInfo();
 
         Network n7 = new Network();
         n7.networkId = 7;
@@ -107,13 +71,7 @@ class NetworkRunner {
         n7.speedMbps = 1100.0;
         n7.isUnlimited = false;
         n7.monthlyCost = 899.0;
-        System.out.println("Network ID: " + n7.networkId);
-        System.out.println("Provider Name: " + n7.providerName);
-        System.out.println("Country: " + n7.country);
-        System.out.println("Network Type: " + n7.networkType);
-        System.out.println("Speed (Mbps): " + n7.speedMbps);
-        System.out.println("Is Unlimited: " + n7.isUnlimited);
-        System.out.println("Monthly Cost: " + n7.monthlyCost);
+        n7.GetInfo();
 
         Network n8 = new Network();
         n8.networkId = 8;
@@ -123,13 +81,7 @@ class NetworkRunner {
         n8.speedMbps = 900.0;
         n8.isUnlimited = true;
         n8.monthlyCost = 750.0;
-        System.out.println("Network ID: " + n8.networkId);
-        System.out.println("Provider Name: " + n8.providerName);
-        System.out.println("Country: " + n8.country);
-        System.out.println("Network Type: " + n8.networkType);
-        System.out.println("Speed (Mbps): " + n8.speedMbps);
-        System.out.println("Is Unlimited: " + n8.isUnlimited);
-        System.out.println("Monthly Cost: " + n8.monthlyCost);
+        n8.GetInfo();
 
         Network n9 = new Network();
         n9.networkId = 9;
@@ -139,13 +91,7 @@ class NetworkRunner {
         n9.speedMbps = 1050.0;
         n9.isUnlimited = false;
         n9.monthlyCost = 820.0;
-        System.out.println("Network ID: " + n9.networkId);
-        System.out.println("Provider Name: " + n9.providerName);
-        System.out.println("Country: " + n9.country);
-        System.out.println("Network Type: " + n9.networkType);
-        System.out.println("Speed (Mbps): " + n9.speedMbps);
-        System.out.println("Is Unlimited: " + n9.isUnlimited);
-        System.out.println("Monthly Cost: " + n9.monthlyCost);
+       n9.GetInfo();
 
         Network n10 = new Network();
         n10.networkId = 10;
@@ -155,15 +101,9 @@ class NetworkRunner {
         n10.speedMbps = 600.0;
         n10.isUnlimited = true;
         n10.monthlyCost = 680.0;
-        System.out.println("Network ID: " + n10.networkId);
-        System.out.println("Provider Name: " + n10.providerName);
-        System.out.println("Country: " + n10.country);
-        System.out.println("Network Type: " + n10.networkType);
-        System.out.println("Speed (Mbps): " + n10.speedMbps);
-        System.out.println("Is Unlimited: " + n10.isUnlimited);
-        System.out.println("Monthly Cost: " + n10.monthlyCost);
+        n10.GetInfo();
 
-                Network n11 = new Network();
+       Network n11 = new Network();
         n11.networkId = 11;
         n11.providerName = "Orange";
         n11.country = "France";
@@ -171,13 +111,7 @@ class NetworkRunner {
         n11.speedMbps = 850.0;
         n11.isUnlimited = true;
         n11.monthlyCost = 770.0;
-        System.out.println("Network ID: " + n11.networkId);
-        System.out.println("Provider Name: " + n11.providerName);
-        System.out.println("Country: " + n11.country);
-        System.out.println("Network Type: " + n11.networkType);
-        System.out.println("Speed (Mbps): " + n11.speedMbps);
-        System.out.println("Is Unlimited: " + n11.isUnlimited);
-        System.out.println("Monthly Cost: " + n11.monthlyCost);
+        n11.GetInfo();
 
         Network n12 = new Network();
         n12.networkId = 12;
@@ -187,13 +121,7 @@ class NetworkRunner {
         n12.speedMbps = 700.0;
         n12.isUnlimited = false;
         n12.monthlyCost = 540.0;
-        System.out.println("Network ID: " + n12.networkId);
-        System.out.println("Provider Name: " + n12.providerName);
-        System.out.println("Country: " + n12.country);
-        System.out.println("Network Type: " + n12.networkType);
-        System.out.println("Speed (Mbps): " + n12.speedMbps);
-        System.out.println("Is Unlimited: " + n12.isUnlimited);
-        System.out.println("Monthly Cost: " + n12.monthlyCost);
+        n12.GetInfo();
 
         Network n13 = new Network();
         n13.networkId = 13;
@@ -203,13 +131,7 @@ class NetworkRunner {
         n13.speedMbps = 980.0;
         n13.isUnlimited = true;
         n13.monthlyCost = 880.0;
-        System.out.println("Network ID: " + n13.networkId);
-        System.out.println("Provider Name: " + n13.providerName);
-        System.out.println("Country: " + n13.country);
-        System.out.println("Network Type: " + n13.networkType);
-        System.out.println("Speed (Mbps): " + n13.speedMbps);
-        System.out.println("Is Unlimited: " + n13.isUnlimited);
-        System.out.println("Monthly Cost: " + n13.monthlyCost);
+        n13.GetInfo();
 
         Network n14 = new Network();
         n14.networkId = 14;
@@ -219,13 +141,7 @@ class NetworkRunner {
         n14.speedMbps = 750.0;
         n14.isUnlimited = false;
         n14.monthlyCost = 590.0;
-        System.out.println("Network ID: " + n14.networkId);
-        System.out.println("Provider Name: " + n14.providerName);
-        System.out.println("Country: " + n14.country);
-        System.out.println("Network Type: " + n14.networkType);
-        System.out.println("Speed (Mbps): " + n14.speedMbps);
-        System.out.println("Is Unlimited: " + n14.isUnlimited);
-        System.out.println("Monthly Cost: " + n14.monthlyCost);
+        n14.GetInfo();
 
         Network n15 = new Network();
         n15.networkId = 15;
@@ -235,13 +151,7 @@ class NetworkRunner {
         n15.speedMbps = 990.0;
         n15.isUnlimited = true;
         n15.monthlyCost = 920.0;
-        System.out.println("Network ID: " + n15.networkId);
-        System.out.println("Provider Name: " + n15.providerName);
-        System.out.println("Country: " + n15.country);
-        System.out.println("Network Type: " + n15.networkType);
-        System.out.println("Speed (Mbps): " + n15.speedMbps);
-        System.out.println("Is Unlimited: " + n15.isUnlimited);
-        System.out.println("Monthly Cost: " + n15.monthlyCost);
+        n15.GetInfo();
 
         Network n16 = new Network();
         n16.networkId = 16;
@@ -251,13 +161,7 @@ class NetworkRunner {
         n16.speedMbps = 1020.0;
         n16.isUnlimited = true;
         n16.monthlyCost = 850.0;
-        System.out.println("Network ID: " + n16.networkId);
-        System.out.println("Provider Name: " + n16.providerName);
-        System.out.println("Country: " + n16.country);
-        System.out.println("Network Type: " + n16.networkType);
-        System.out.println("Speed (Mbps): " + n16.speedMbps);
-        System.out.println("Is Unlimited: " + n16.isUnlimited);
-        System.out.println("Monthly Cost: " + n16.monthlyCost);
+        n16.GetInfo();
 
         Network n17 = new Network();
         n17.networkId = 17;
@@ -267,13 +171,7 @@ class NetworkRunner {
         n17.speedMbps = 690.0;
         n17.isUnlimited = false;
         n17.monthlyCost = 580.0;
-        System.out.println("Network ID: " + n17.networkId);
-        System.out.println("Provider Name: " + n17.providerName);
-        System.out.println("Country: " + n17.country);
-        System.out.println("Network Type: " + n17.networkType);
-        System.out.println("Speed (Mbps): " + n17.speedMbps);
-        System.out.println("Is Unlimited: " + n17.isUnlimited);
-        System.out.println("Monthly Cost: " + n17.monthlyCost);
+        n17.GetInfo();
 
         Network n18 = new Network();
         n18.networkId = 18;
@@ -283,13 +181,7 @@ class NetworkRunner {
         n18.speedMbps = 870.0;
         n18.isUnlimited = true;
         n18.monthlyCost = 720.0;
-        System.out.println("Network ID: " + n18.networkId);
-        System.out.println("Provider Name: " + n18.providerName);
-        System.out.println("Country: " + n18.country);
-        System.out.println("Network Type: " + n18.networkType);
-        System.out.println("Speed (Mbps): " + n18.speedMbps);
-        System.out.println("Is Unlimited: " + n18.isUnlimited);
-        System.out.println("Monthly Cost: " + n18.monthlyCost);
+        n18.GetInfo();
 
         Network n19 = new Network();
         n19.networkId = 19;
@@ -299,13 +191,7 @@ class NetworkRunner {
         n19.speedMbps = 720.0;
         n19.isUnlimited = false;
         n19.monthlyCost = 630.0;
-        System.out.println("Network ID: " + n19.networkId);
-        System.out.println("Provider Name: " + n19.providerName);
-        System.out.println("Country: " + n19.country);
-        System.out.println("Network Type: " + n19.networkType);
-        System.out.println("Speed (Mbps): " + n19.speedMbps);
-        System.out.println("Is Unlimited: " + n19.isUnlimited);
-        System.out.println("Monthly Cost: " + n19.monthlyCost);
+        n19.GetInfo();
       
         Network n20 = new Network();
         n20.networkId = 20;
@@ -315,13 +201,7 @@ class NetworkRunner {
         n20.speedMbps = 800.0;
         n20.isUnlimited = false;
         n20.monthlyCost = 720.0;
-        System.out.println("Network ID: " + n20.networkId);
-        System.out.println("Provider Name: " + n20.providerName);
-        System.out.println("Country: " + n20.country);
-        System.out.println("Network Type: " + n20.networkType);
-        System.out.println("Speed (Mbps): " + n20.speedMbps);
-        System.out.println("Is Unlimited: " + n20.isUnlimited);
-        System.out.println("Monthly Cost: " + n20.monthlyCost);
+        n20.GetInfo();
 
            }
 }

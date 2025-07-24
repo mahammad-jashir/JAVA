@@ -12,13 +12,7 @@ class RodRunner {
         rod1.weight = 7.2;
         rod1.isHollow = false;
         rod1.usage = "Construction";
-        System.out.println("ID: " + rod1.rodId);
-        System.out.println("Material: " + rod1.material);
-        System.out.println("Length: " + rod1.length + "m");
-        System.out.println("Diameter: " + rod1.diameter + "cm");
-        System.out.println("Weight: " + rod1.weight + "kg");
-        System.out.println("Hollow: " + rod1.isHollow);
-        System.out.println("Usage: " + rod1.usage);
+        rod1.GetInfo();
 
         Rod rod2 = new Rod();
         rod2.rodId = 2;
@@ -28,15 +22,9 @@ class RodRunner {
         rod2.weight = 6.8;
         rod2.isHollow = true;
         rod2.usage = "Support Beam";
-        System.out.println("ID: " + rod2.rodId);
-        System.out.println("Material: " + rod2.material);
-        System.out.println("Length: " + rod2.length + "m");
-        System.out.println("Diameter: " + rod2.diameter + "cm");
-        System.out.println("Weight: " + rod2.weight + "kg");
-        System.out.println("Hollow: " + rod2.isHollow);
-        System.out.println("Usage: " + rod2.usage);
+        rod2.GetInfo();
 
-                Rod rod3 = new Rod();
+        Rod rod3 = new Rod();
         rod3.rodId = 3;
         rod3.material = "Carbon Fiber";
         rod3.length = 4.0;
@@ -44,13 +32,7 @@ class RodRunner {
         rod3.weight = 3.5;
         rod3.isHollow = true;
         rod3.usage = "Aerospace";
-        System.out.println("ID: " + rod3.rodId);
-        System.out.println("Material: " + rod3.material);
-        System.out.println("Length: " + rod3.length + "m");
-        System.out.println("Diameter: " + rod3.diameter + "cm");
-        System.out.println("Weight: " + rod3.weight + "kg");
-        System.out.println("Hollow: " + rod3.isHollow);
-        System.out.println("Usage: " + rod3.usage);
+        rod3.GetInfo();
 
         Rod rod4 = new Rod();
         rod4.rodId = 4;
@@ -60,13 +42,7 @@ class RodRunner {
         rod4.weight = 2.2;
         rod4.isHollow = false;
         rod4.usage = "Furniture Frame";
-        System.out.println("ID: " + rod4.rodId);
-        System.out.println("Material: " + rod4.material);
-        System.out.println("Length: " + rod4.length + "m");
-        System.out.println("Diameter: " + rod4.diameter + "cm");
-        System.out.println("Weight: " + rod4.weight + "kg");
-        System.out.println("Hollow: " + rod4.isHollow);
-        System.out.println("Usage: " + rod4.usage);
+        rod4.GetInfo();
 
         Rod rod5 = new Rod();
         rod5.rodId = 5;
@@ -76,13 +52,7 @@ class RodRunner {
         rod5.weight = 1.8;
         rod5.isHollow = true;
         rod5.usage = "Plumbing";
-        System.out.println("ID: " + rod5.rodId);
-        System.out.println("Material: " + rod5.material);
-        System.out.println("Length: " + rod5.length + "m");
-        System.out.println("Diameter: " + rod5.diameter + "cm");
-        System.out.println("Weight: " + rod5.weight + "kg");
-        System.out.println("Hollow: " + rod5.isHollow);
-        System.out.println("Usage: " + rod5.usage);
+        rod5.GetInfo();
 
         Rod rod6 = new Rod();
         rod6.rodId = 6;
@@ -92,13 +62,7 @@ class RodRunner {
         rod6.weight = 4.1;
         rod6.isHollow = false;
         rod6.usage = "Electrical Conduction";
-        System.out.println("ID: " + rod6.rodId);
-        System.out.println("Material: " + rod6.material);
-        System.out.println("Length: " + rod6.length + "m");
-        System.out.println("Diameter: " + rod6.diameter + "cm");
-        System.out.println("Weight: " + rod6.weight + "kg");
-        System.out.println("Hollow: " + rod6.isHollow);
-        System.out.println("Usage: " + rod6.usage);
+        rod6.GetInfo();
 
         Rod rod7 = new Rod();
         rod7.rodId = 7;
@@ -108,13 +72,7 @@ class RodRunner {
         rod7.weight = 5.0;
         rod7.isHollow = true;
         rod7.usage = "Scaffolding";
-        System.out.println("ID: " + rod7.rodId);
-        System.out.println("Material: " + rod7.material);
-        System.out.println("Length: " + rod7.length + "m");
-        System.out.println("Diameter: " + rod7.diameter + "cm");
-        System.out.println("Weight: " + rod7.weight + "kg");
-        System.out.println("Hollow: " + rod7.isHollow);
-        System.out.println("Usage: " + rod7.usage);
+        rod7.GetInfo();
 
         Rod rod8 = new Rod();
         rod8.rodId = 8;
@@ -124,13 +82,7 @@ class RodRunner {
         rod8.weight = 3.0;
         rod8.isHollow = false;
         rod8.usage = "Medical Implants";
-        System.out.println("ID: " + rod8.rodId);
-        System.out.println("Material: " + rod8.material);
-        System.out.println("Length: " + rod8.length + "m");
-        System.out.println("Diameter: " + rod8.diameter + "cm");
-        System.out.println("Weight: " + rod8.weight + "kg");
-        System.out.println("Hollow: " + rod8.isHollow);
-        System.out.println("Usage: " + rod8.usage);
+        rod8.GetInfo();
 
         Rod rod9 = new Rod();
         rod9.rodId = 9;
@@ -140,13 +92,7 @@ class RodRunner {
         rod9.weight = 1.2;
         rod9.isHollow = true;
         rod9.usage = "Interior Decoration";
-        System.out.println("ID: " + rod9.rodId);
-        System.out.println("Material: " + rod9.material);
-        System.out.println("Length: " + rod9.length + "m");
-        System.out.println("Diameter: " + rod9.diameter + "cm");
-        System.out.println("Weight: " + rod9.weight + "kg");
-        System.out.println("Hollow: " + rod9.isHollow);
-        System.out.println("Usage: " + rod9.usage);
+       rod9.GetInfo();
 
         Rod rod10 = new Rod();
         rod10.rodId = 10;
@@ -156,13 +102,7 @@ class RodRunner {
         rod10.weight = 2.9;
         rod10.isHollow = false;
         rod10.usage = "Pole Vault";
-        System.out.println("ID: " + rod10.rodId);
-        System.out.println("Material: " + rod10.material);
-        System.out.println("Length: " + rod10.length + "m");
-        System.out.println("Diameter: " + rod10.diameter + "cm");
-        System.out.println("Weight: " + rod10.weight + "kg");
-        System.out.println("Hollow: " + rod10.isHollow);
-        System.out.println("Usage: " + rod10.usage);
+        rod10.GetInfo();
 
         Rod rod11 = new Rod();
         rod11.rodId = 11;
@@ -172,13 +112,7 @@ class RodRunner {
         rod11.weight = 6.7;
         rod11.isHollow = false;
         rod11.usage = "Fencing";
-        System.out.println("ID: " + rod11.rodId);
-        System.out.println("Material: " + rod11.material);
-        System.out.println("Length: " + rod11.length + "m");
-        System.out.println("Diameter: " + rod11.diameter + "cm");
-        System.out.println("Weight: " + rod11.weight + "kg");
-        System.out.println("Hollow: " + rod11.isHollow);
-        System.out.println("Usage: " + rod11.usage);
+        rod11.GetInfo();
 
         Rod rod12 = new Rod();
         rod12.rodId = 12;
@@ -188,13 +122,7 @@ class RodRunner {
         rod12.weight = 0.9;
         rod12.isHollow = true;
         rod12.usage = "Kids Toy";
-        System.out.println("ID: " + rod12.rodId);
-        System.out.println("Material: " + rod12.material);
-        System.out.println("Length: " + rod12.length + "m");
-        System.out.println("Diameter: " + rod12.diameter + "cm");
-        System.out.println("Weight: " + rod12.weight + "kg");
-        System.out.println("Hollow: " + rod12.isHollow);
-        System.out.println("Usage: " + rod12.usage);
+       rod12.GetInfo();
 
         Rod rod13 = new Rod();
         rod13.rodId = 13;
@@ -204,13 +132,7 @@ class RodRunner {
         rod13.weight = 3.6;
         rod13.isHollow = false;
         rod13.usage = "Tent Pole";
-        System.out.println("ID: " + rod13.rodId);
-        System.out.println("Material: " + rod13.material);
-        System.out.println("Length: " + rod13.length + "m");
-        System.out.println("Diameter: " + rod13.diameter + "cm");
-        System.out.println("Weight: " + rod13.weight + "kg");
-        System.out.println("Hollow: " + rod13.isHollow);
-        System.out.println("Usage: " + rod13.usage);
+        rod13.GetInfo();
 
         Rod rod14 = new Rod();
         rod14.rodId = 14;
@@ -220,13 +142,7 @@ class RodRunner {
         rod14.weight = 1.1;
         rod14.isHollow = true;
         rod14.usage = "Fishing Rod";
-        System.out.println("ID: " + rod14.rodId);
-        System.out.println("Material: " + rod14.material);
-        System.out.println("Length: " + rod14.length + "m");
-        System.out.println("Diameter: " + rod14.diameter + "cm");
-        System.out.println("Weight: " + rod14.weight + "kg");
-        System.out.println("Hollow: " + rod14.isHollow);
-        System.out.println("Usage: " + rod14.usage);
+        rod14.GetInfo();
 
         Rod rod15 = new Rod();
         rod15.rodId = 15;
@@ -236,13 +152,7 @@ class RodRunner {
         rod15.weight = 4.8;
         rod15.isHollow = false;
         rod15.usage = "Medical Equipment";
-        System.out.println("ID: " + rod15.rodId);
-        System.out.println("Material: " + rod15.material);
-        System.out.println("Length: " + rod15.length + "m");
-        System.out.println("Diameter: " + rod15.diameter + "cm");
-        System.out.println("Weight: " + rod15.weight + "kg");
-        System.out.println("Hollow: " + rod15.isHollow);
-        System.out.println("Usage: " + rod15.usage);
+        rod15.GetInfo();
 
         Rod rod16 = new Rod();
         rod16.rodId = 16;
@@ -252,13 +162,7 @@ class RodRunner {
         rod16.weight = 2.5;
         rod16.isHollow = false;
         rod16.usage = "Curtain Rod";
-        System.out.println("ID: " + rod16.rodId);
-        System.out.println("Material: " + rod16.material);
-        System.out.println("Length: " + rod16.length + "m");
-        System.out.println("Diameter: " + rod16.diameter + "cm");
-        System.out.println("Weight: " + rod16.weight + "kg");
-        System.out.println("Hollow: " + rod16.isHollow);
-        System.out.println("Usage: " + rod16.usage);
+        rod16.GetInfo();
 
         Rod rod17 = new Rod();
         rod17.rodId = 17;
@@ -268,13 +172,7 @@ class RodRunner {
         rod17.weight = 6.5;
         rod17.isHollow = false;
         rod17.usage = "Reinforcement";
-        System.out.println("ID: " + rod17.rodId);
-        System.out.println("Material: " + rod17.material);
-        System.out.println("Length: " + rod17.length + "m");
-        System.out.println("Diameter: " + rod17.diameter + "cm");
-        System.out.println("Weight: " + rod17.weight + "kg");
-        System.out.println("Hollow: " + rod17.isHollow);
-        System.out.println("Usage: " + rod17.usage);
+        rod17.GetInfo();
 
         Rod rod18 = new Rod();
         rod18.rodId = 18;
@@ -284,13 +182,7 @@ class RodRunner {
         rod18.weight = 1.0;
         rod18.isHollow = true;
         rod18.usage = "Cable Enclosure";
-        System.out.println("ID: " + rod18.rodId);
-        System.out.println("Material: " + rod18.material);
-        System.out.println("Length: " + rod18.length + "m");
-        System.out.println("Diameter: " + rod18.diameter + "cm");
-        System.out.println("Weight: " + rod18.weight + "kg");
-        System.out.println("Hollow: " + rod18.isHollow);
-        System.out.println("Usage: " + rod18.usage);
+        rod18.GetInfo();
 
         Rod rod19 = new Rod();
         rod19.rodId = 19;
@@ -300,13 +192,7 @@ class RodRunner {
         rod19.weight = 2.3;
         rod19.isHollow = false;
         rod19.usage = "Insulation Rod";
-        System.out.println("ID: " + rod19.rodId);
-        System.out.println("Material: " + rod19.material);
-        System.out.println("Length: " + rod19.length + "m");
-        System.out.println("Diameter: " + rod19.diameter + "cm");
-        System.out.println("Weight: " + rod19.weight + "kg");
-        System.out.println("Hollow: " + rod19.isHollow);
-        System.out.println("Usage: " + rod19.usage);
+        rod19.GetInfo();
 
         Rod rod20 = new Rod();
         rod20.rodId = 20;
@@ -316,13 +202,7 @@ class RodRunner {
         rod20.weight = 5.9;
         rod20.isHollow = false;
         rod20.usage = "Sculpture Frame";
-        System.out.println("ID: " + rod20.rodId);
-        System.out.println("Material: " + rod20.material);
-        System.out.println("Length: " + rod20.length + "m");
-        System.out.println("Diameter: " + rod20.diameter + "cm");
-        System.out.println("Weight: " + rod20.weight + "kg");
-        System.out.println("Hollow: " + rod20.isHollow);
-        System.out.println("Usage: " + rod20.usage);
+        rod20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

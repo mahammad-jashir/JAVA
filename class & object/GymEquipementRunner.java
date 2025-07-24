@@ -12,13 +12,7 @@ class GymEquipmentRunner {
         equip1.isAdjustable = false;
         equip1.category = "Strength";
         equip1.brand = "FitPro";
-        System.out.println("Equipment ID: " + equip1.equipmentId);
-        System.out.println("Name: " + equip1.name);
-        System.out.println("Weight: " + equip1.weight + " kg");
-        System.out.println("Material: " + equip1.material);
-        System.out.println("Adjustable: " + equip1.isAdjustable);
-        System.out.println("Category: " + equip1.category);
-        System.out.println("Brand: " + equip1.brand);
+        equip1.GetInfo();
 
         GymEquipment equip2 = new GymEquipment();
         equip2.equipmentId = 2;
@@ -28,13 +22,8 @@ class GymEquipmentRunner {
         equip2.isAdjustable = true;
         equip2.category = "Strength";
         equip2.brand = "StrongMax";
-        System.out.println("Equipment ID: " + equip2.equipmentId);
-        System.out.println("Name: " + equip2.name);
-        System.out.println("Weight: " + equip2.weight + " kg");
-        System.out.println("Material: " + equip2.material);
-        System.out.println("Adjustable: " + equip2.isAdjustable);
-        System.out.println("Category: " + equip2.category);
-        System.out.println("Brand: " + equip2.brand);
+        equip2.GetInfo();
+
 
         GymEquipment equip3 = new GymEquipment();
         equip3.equipmentId = 3;
@@ -44,13 +33,8 @@ class GymEquipmentRunner {
         equip3.isAdjustable = true;
         equip3.category = "Cardio";
         equip3.brand = "RunWay";
-        System.out.println("Equipment ID: " + equip3.equipmentId);
-        System.out.println("Name: " + equip3.name);
-        System.out.println("Weight: " + equip3.weight + " kg");
-        System.out.println("Material: " + equip3.material);
-        System.out.println("Adjustable: " + equip3.isAdjustable);
-        System.out.println("Category: " + equip3.category);
-        System.out.println("Brand: " + equip3.brand);
+        equip3.GetInfo();
+
 
         GymEquipment equip4 = new GymEquipment();
         equip4.equipmentId = 4;
@@ -60,13 +44,8 @@ class GymEquipmentRunner {
         equip4.isAdjustable = true;
         equip4.category = "Cardio";
         equip4.brand = "CycleFit";
-        System.out.println("Equipment ID: " + equip4.equipmentId);
-        System.out.println("Name: " + equip4.name);
-        System.out.println("Weight: " + equip4.weight + " kg");
-        System.out.println("Material: " + equip4.material);
-        System.out.println("Adjustable: " + equip4.isAdjustable);
-        System.out.println("Category: " + equip4.category);
-        System.out.println("Brand: " + equip4.brand);
+       equip4.GetInfo();
+
 
         GymEquipment equip5 = new GymEquipment();
         equip5.equipmentId = 5;
@@ -76,13 +55,8 @@ class GymEquipmentRunner {
         equip5.isAdjustable = true;
         equip5.category = "Cardio";
         equip5.brand = "RowMaster";
-        System.out.println("Equipment ID: " + equip5.equipmentId);
-        System.out.println("Name: " + equip5.name);
-        System.out.println("Weight: " + equip5.weight + " kg");
-        System.out.println("Material: " + equip5.material);
-        System.out.println("Adjustable: " + equip5.isAdjustable);
-        System.out.println("Category: " + equip5.category);
-        System.out.println("Brand: " + equip5.brand);
+        equip5.GetInfo();
+
 
         GymEquipment equip6 = new GymEquipment();
         equip6.equipmentId = 6;
@@ -92,13 +66,8 @@ class GymEquipmentRunner {
         equip6.isAdjustable = false;
         equip6.category = "Strength";
         equip6.brand = "LegBuild";
-        System.out.println("Equipment ID: " + equip6.equipmentId);
-        System.out.println("Name: " + equip6.name);
-        System.out.println("Weight: " + equip6.weight + " kg");
-        System.out.println("Material: " + equip6.material);
-        System.out.println("Adjustable: " + equip6.isAdjustable);
-        System.out.println("Category: " + equip6.category);
-        System.out.println("Brand: " + equip6.brand);
+        equip6.GetInfo();
+
 
         GymEquipment equip7 = new GymEquipment();
         equip7.equipmentId = 7;
@@ -108,13 +77,8 @@ class GymEquipmentRunner {
         equip7.isAdjustable = true;
         equip7.category = "Strength";
         equip7.brand = "ChestCore";
-        System.out.println("Equipment ID: " + equip7.equipmentId);
-        System.out.println("Name: " + equip7.name);
-        System.out.println("Weight: " + equip7.weight + " kg");
-        System.out.println("Material: " + equip7.material);
-        System.out.println("Adjustable: " + equip7.isAdjustable);
-        System.out.println("Category: " + equip7.category);
-        System.out.println("Brand: " + equip7.brand);
+        equip7.GetInfo();
+
 
         GymEquipment equip8 = new GymEquipment();
         equip8.equipmentId = 8;
@@ -124,13 +88,8 @@ class GymEquipmentRunner {
         equip8.isAdjustable = false;
         equip8.category = "Strength";
         equip8.brand = "PowerBell";
-        System.out.println("Equipment ID: " + equip8.equipmentId);
-        System.out.println("Name: " + equip8.name);
-        System.out.println("Weight: " + equip8.weight + " kg");
-        System.out.println("Material: " + equip8.material);
-        System.out.println("Adjustable: " + equip8.isAdjustable);
-        System.out.println("Category: " + equip8.category);
-        System.out.println("Brand: " + equip8.brand);
+        equip8.GetInfo();
+
 
         GymEquipment equip9 = new GymEquipment();
         equip9.equipmentId = 9;
@@ -140,13 +99,7 @@ class GymEquipmentRunner {
         equip9.isAdjustable = false;
         equip9.category = "Bodyweight";
         equip9.brand = "FlexBar";
-        System.out.println("Equipment ID: " + equip9.equipmentId);
-        System.out.println("Name: " + equip9.name);
-        System.out.println("Weight: " + equip9.weight + " kg");
-        System.out.println("Material: " + equip9.material);
-        System.out.println("Adjustable: " + equip9.isAdjustable);
-        System.out.println("Category: " + equip9.category);
-        System.out.println("Brand: " + equip9.brand);
+        equip9.GetInfo();
 
         GymEquipment equip10 = new GymEquipment();
         equip10.equipmentId = 10;
@@ -156,13 +109,8 @@ class GymEquipmentRunner {
         equip10.isAdjustable = true;
         equip10.category = "Flexibility";
         equip10.brand = "StretchX";
-        System.out.println("Equipment ID: " + equip10.equipmentId);
-        System.out.println("Name: " + equip10.name);
-        System.out.println("Weight: " + equip10.weight + " kg");
-        System.out.println("Material: " + equip10.material);
-        System.out.println("Adjustable: " + equip10.isAdjustable);
-        System.out.println("Category: " + equip10.category);
-        System.out.println("Brand: " + equip10.brand);
+        equip10.GetInfo();
+
 
 
         GymEquipment equip11 = new GymEquipment();
@@ -173,13 +121,8 @@ class GymEquipmentRunner {
         equip11.isAdjustable = true;
         equip11.category = "Cardio";
         equip11.brand = "SpeedRope";
-        System.out.println("Equipment ID: " + equip11.equipmentId);
-        System.out.println("Name: " + equip11.name);
-        System.out.println("Weight: " + equip11.weight + " kg");
-        System.out.println("Material: " + equip11.material);
-        System.out.println("Adjustable: " + equip11.isAdjustable);
-        System.out.println("Category: " + equip11.category);
-        System.out.println("Brand: " + equip11.brand);
+       equip11.GetInfo();
+
 
         GymEquipment equip12 = new GymEquipment();
         equip12.equipmentId = 12;
@@ -189,13 +132,8 @@ class GymEquipmentRunner {
         equip12.isAdjustable = true;
         equip12.category = "Cardio";
         equip12.brand = "WalkNWork";
-        System.out.println("Equipment ID: " + equip12.equipmentId);
-        System.out.println("Name: " + equip12.name);
-        System.out.println("Weight: " + equip12.weight + " kg");
-        System.out.println("Material: " + equip12.material);
-        System.out.println("Adjustable: " + equip12.isAdjustable);
-        System.out.println("Category: " + equip12.category);
-        System.out.println("Brand: " + equip12.brand);
+        equip12.GetInfo();
+
 
         GymEquipment equip13 = new GymEquipment();
         equip13.equipmentId = 13;
@@ -205,13 +143,8 @@ class GymEquipmentRunner {
         equip13.isAdjustable = true;
         equip13.category = "Strength";
         equip13.brand = "BenchPro";
-        System.out.println("Equipment ID: " + equip13.equipmentId);
-        System.out.println("Name: " + equip13.name);
-        System.out.println("Weight: " + equip13.weight + " kg");
-        System.out.println("Material: " + equip13.material);
-        System.out.println("Adjustable: " + equip13.isAdjustable);
-        System.out.println("Category: " + equip13.category);
-        System.out.println("Brand: " + equip13.brand);
+        equip13.GetInfo();
+
 
         GymEquipment equip14 = new GymEquipment();
         equip14.equipmentId = 14;
@@ -221,13 +154,8 @@ class GymEquipmentRunner {
         equip14.isAdjustable = true;
         equip14.category = "Strength";
         equip14.brand = "CableKing";
-        System.out.println("Equipment ID: " + equip14.equipmentId);
-        System.out.println("Name: " + equip14.name);
-        System.out.println("Weight: " + equip14.weight + " kg");
-        System.out.println("Material: " + equip14.material);
-        System.out.println("Adjustable: " + equip14.isAdjustable);
-        System.out.println("Category: " + equip14.category);
-        System.out.println("Brand: " + equip14.brand);
+        equip14.GetInfo();
+
 
         GymEquipment equip15 = new GymEquipment();
         equip15.equipmentId = 15;
@@ -237,13 +165,8 @@ class GymEquipmentRunner {
         equip15.isAdjustable = false;
         equip15.category = "Functional";
         equip15.brand = "BallFit";
-        System.out.println("Equipment ID: " + equip15.equipmentId);
-        System.out.println("Name: " + equip15.name);
-        System.out.println("Weight: " + equip15.weight + " kg");
-        System.out.println("Material: " + equip15.material);
-        System.out.println("Adjustable: " + equip15.isAdjustable);
-        System.out.println("Category: " + equip15.category);
-        System.out.println("Brand: " + equip15.brand);
+        equip15.GetInfo();
+
 
         GymEquipment equip16 = new GymEquipment();
         equip16.equipmentId = 16;
@@ -253,13 +176,8 @@ class GymEquipmentRunner {
         equip16.isAdjustable = false;
         equip16.category = "Recovery";
         equip16.brand = "RollEase";
-        System.out.println("Equipment ID: " + equip16.equipmentId);
-        System.out.println("Name: " + equip16.name);
-        System.out.println("Weight: " + equip16.weight + " kg");
-        System.out.println("Material: " + equip16.material);
-        System.out.println("Adjustable: " + equip16.isAdjustable);
-        System.out.println("Category: " + equip16.category);
-        System.out.println("Brand: " + equip16.brand);
+        equip16.GetInfo();
+
 
         GymEquipment equip17 = new GymEquipment();
         equip17.equipmentId = 17;
@@ -269,13 +187,8 @@ class GymEquipmentRunner {
         equip17.isAdjustable = true;
         equip17.category = "Cardio";
         equip17.brand = "StepUp";
-        System.out.println("Equipment ID: " + equip17.equipmentId);
-        System.out.println("Name: " + equip17.name);
-        System.out.println("Weight: " + equip17.weight + " kg");
-        System.out.println("Material: " + equip17.material);
-        System.out.println("Adjustable: " + equip17.isAdjustable);
-        System.out.println("Category: " + equip17.category);
-        System.out.println("Brand: " + equip17.brand);
+        equip17.GetInfo();
+
 
         GymEquipment equip18 = new GymEquipment();
         equip18.equipmentId = 18;
@@ -285,13 +198,8 @@ class GymEquipmentRunner {
         equip18.isAdjustable = false;
         equip18.category = "Strength";
         equip18.brand = "ArmIron";
-        System.out.println("Equipment ID: " + equip18.equipmentId);
-        System.out.println("Name: " + equip18.name);
-        System.out.println("Weight: " + equip18.weight + " kg");
-        System.out.println("Material: " + equip18.material);
-        System.out.println("Adjustable: " + equip18.isAdjustable);
-        System.out.println("Category: " + equip18.category);
-        System.out.println("Brand: " + equip18.brand);
+        equip18.GetInfo();
+
 
         GymEquipment equip19 = new GymEquipment();
         equip19.equipmentId = 19;
@@ -301,13 +209,8 @@ class GymEquipmentRunner {
         equip19.isAdjustable = false;
         equip19.category = "Conditioning";
         equip19.brand = "RopeX";
-        System.out.println("Equipment ID: " + equip19.equipmentId);
-        System.out.println("Name: " + equip19.name);
-        System.out.println("Weight: " + equip19.weight + " kg");
-        System.out.println("Material: " + equip19.material);
-        System.out.println("Adjustable: " + equip19.isAdjustable);
-        System.out.println("Category: " + equip19.category);
-        System.out.println("Brand: " + equip19.brand);
+        equip19.GetInfo();
+
 
         GymEquipment equip20 = new GymEquipment();
         equip20.equipmentId = 20;
@@ -317,13 +220,8 @@ class GymEquipmentRunner {
         equip20.isAdjustable = false;
         equip20.category = "Core";
         equip20.brand = "AbPower";
-        System.out.println("Equipment ID: " + equip20.equipmentId);
-        System.out.println("Name: " + equip20.name);
-        System.out.println("Weight: " + equip20.weight + " kg");
-        System.out.println("Material: " + equip20.material);
-        System.out.println("Adjustable: " + equip20.isAdjustable);
-        System.out.println("Category: " + equip20.category);
-        System.out.println("Brand: " + equip20.brand);
+        equip20.GetInfo();
+
 
         System.out.println("THE MAIN ENDED");
     }

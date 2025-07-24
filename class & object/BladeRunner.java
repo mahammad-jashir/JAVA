@@ -11,13 +11,7 @@ class BladeRunner {
         blade1.lengthInCm = 4.5;
         blade1.isReusable = false;
         blade1.type = "Safety Razor";
-        System.out.println("Blade ID: " + blade1.bladeId);
-        System.out.println("Brand: " + blade1.brand);
-        System.out.println("Material: " + blade1.material);
-        System.out.println("Sharpness Level: " + blade1.sharpnessLevel);
-        System.out.println("Length: " + blade1.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade1.isReusable);
-        System.out.println("Type: " + blade1.type);
+        blade1.GetInfo();
 
         Blade blade2 = new Blade();
         blade2.bladeId = 2;
@@ -27,13 +21,7 @@ class BladeRunner {
         blade2.lengthInCm = 4.2;
         blade2.isReusable = false;
         blade2.type = "Disposable";
-        System.out.println("Blade ID: " + blade2.bladeId);
-        System.out.println("Brand: " + blade2.brand);
-        System.out.println("Material: " + blade2.material);
-        System.out.println("Sharpness Level: " + blade2.sharpnessLevel);
-        System.out.println("Length: " + blade2.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade2.isReusable);
-        System.out.println("Type: " + blade2.type);
+        blade2.GetInfo();
 
         Blade blade3 = new Blade();
         blade3.bladeId = 3;
@@ -43,13 +31,7 @@ class BladeRunner {
         blade3.lengthInCm = 4.8;
         blade3.isReusable = true;
         blade3.type = "Cartridge";
-        System.out.println("Blade ID: " + blade3.bladeId);
-        System.out.println("Brand: " + blade3.brand);
-        System.out.println("Material: " + blade3.material);
-        System.out.println("Sharpness Level: " + blade3.sharpnessLevel);
-        System.out.println("Length: " + blade3.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade3.isReusable);
-        System.out.println("Type: " + blade3.type);
+        blade3.GetInfo();
 
         Blade blade4 = new Blade();
         blade4.bladeId = 4;
@@ -59,13 +41,7 @@ class BladeRunner {
         blade4.lengthInCm = 4.1;
         blade4.isReusable = false;
         blade4.type = "Straight Razor";
-        System.out.println("Blade ID: " + blade4.bladeId);
-        System.out.println("Brand: " + blade4.brand);
-        System.out.println("Material: " + blade4.material);
-        System.out.println("Sharpness Level: " + blade4.sharpnessLevel);
-        System.out.println("Length: " + blade4.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade4.isReusable);
-        System.out.println("Type: " + blade4.type);
+        blade4.GetInfo();
 
         Blade blade5 = new Blade();
         blade5.bladeId = 5;
@@ -75,13 +51,7 @@ class BladeRunner {
         blade5.lengthInCm = 4.3;
         blade5.isReusable = true;
         blade5.type = "Straight Razor";
-        System.out.println("Blade ID: " + blade5.bladeId);
-        System.out.println("Brand: " + blade5.brand);
-        System.out.println("Material: " + blade5.material);
-        System.out.println("Sharpness Level: " + blade5.sharpnessLevel);
-        System.out.println("Length: " + blade5.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade5.isReusable);
-        System.out.println("Type: " + blade5.type);
+        blade5.GetInfo();
 
         Blade blade6 = new Blade();
         blade6.bladeId = 6;
@@ -91,13 +61,7 @@ class BladeRunner {
         blade6.lengthInCm = 4.0;
         blade6.isReusable = false;
         blade6.type = "Safety Razor";
-        System.out.println("Blade ID: " + blade6.bladeId);
-        System.out.println("Brand: " + blade6.brand);
-        System.out.println("Material: " + blade6.material);
-        System.out.println("Sharpness Level: " + blade6.sharpnessLevel);
-        System.out.println("Length: " + blade6.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade6.isReusable);
-        System.out.println("Type: " + blade6.type);
+        blade6.GetInfo();
 
         Blade blade7 = new Blade();
         blade7.bladeId = 7;
@@ -107,13 +71,7 @@ class BladeRunner {
         blade7.lengthInCm = 4.6;
         blade7.isReusable = true;
         blade7.type = "Cartridge";
-        System.out.println("Blade ID: " + blade7.bladeId);
-        System.out.println("Brand: " + blade7.brand);
-        System.out.println("Material: " + blade7.material);
-        System.out.println("Sharpness Level: " + blade7.sharpnessLevel);
-        System.out.println("Length: " + blade7.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade7.isReusable);
-        System.out.println("Type: " + blade7.type);
+        blade7.GetInfo();
 
         Blade blade8 = new Blade();
         blade8.bladeId = 8;
@@ -123,13 +81,7 @@ class BladeRunner {
         blade8.lengthInCm = 4.2;
         blade8.isReusable = false;
         blade8.type = "Disposable";
-        System.out.println("Blade ID: " + blade8.bladeId);
-        System.out.println("Brand: " + blade8.brand);
-        System.out.println("Material: " + blade8.material);
-        System.out.println("Sharpness Level: " + blade8.sharpnessLevel);
-        System.out.println("Length: " + blade8.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade8.isReusable);
-        System.out.println("Type: " + blade8.type);
+        blade8.GetInfo();
 
         Blade blade9 = new Blade();
         blade9.bladeId = 9;
@@ -139,13 +91,7 @@ class BladeRunner {
         blade9.lengthInCm = 4.4;
         blade9.isReusable = true;
         blade9.type = "Cartridge";
-        System.out.println("Blade ID: " + blade9.bladeId);
-        System.out.println("Brand: " + blade9.brand);
-        System.out.println("Material: " + blade9.material);
-        System.out.println("Sharpness Level: " + blade9.sharpnessLevel);
-        System.out.println("Length: " + blade9.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade9.isReusable);
-        System.out.println("Type: " + blade9.type);
+        blade9.GetInfo();
 
         Blade blade10 = new Blade();
         blade10.bladeId = 10;
@@ -155,13 +101,7 @@ class BladeRunner {
         blade10.lengthInCm = 4.6;
         blade10.isReusable = false;
         blade10.type = "Safety Razor";
-        System.out.println("Blade ID: " + blade10.bladeId);
-        System.out.println("Brand: " + blade10.brand);
-        System.out.println("Material: " + blade10.material);
-        System.out.println("Sharpness Level: " + blade10.sharpnessLevel);
-        System.out.println("Length: " + blade10.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade10.isReusable);
-        System.out.println("Type: " + blade10.type);
+        blade10.GetInfo();
 
         Blade blade11 = new Blade();
         blade11.bladeId = 11;
@@ -171,13 +111,7 @@ class BladeRunner {
         blade11.lengthInCm = 4.1;
         blade11.isReusable = false;
         blade11.type = "Disposable";
-        System.out.println("Blade ID: " + blade11.bladeId);
-        System.out.println("Brand: " + blade11.brand);
-        System.out.println("Material: " + blade11.material);
-        System.out.println("Sharpness Level: " + blade11.sharpnessLevel);
-        System.out.println("Length: " + blade11.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade11.isReusable);
-        System.out.println("Type: " + blade11.type);
+        blade11.GetInfo();
 
         Blade blade12 = new Blade();
         blade12.bladeId = 12;
@@ -187,13 +121,7 @@ class BladeRunner {
         blade12.lengthInCm = 4.0;
         blade12.isReusable = false;
         blade12.type = "Safety Razor";
-        System.out.println("Blade ID: " + blade12.bladeId);
-        System.out.println("Brand: " + blade12.brand);
-        System.out.println("Material: " + blade12.material);
-        System.out.println("Sharpness Level: " + blade12.sharpnessLevel);
-        System.out.println("Length: " + blade12.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade12.isReusable);
-        System.out.println("Type: " + blade12.type);
+        blade12.GetInfo();
 
         Blade blade13 = new Blade();
         blade13.bladeId = 13;
@@ -203,13 +131,7 @@ class BladeRunner {
         blade13.lengthInCm = 4.7;
         blade13.isReusable = true;
         blade13.type = "Cartridge";
-        System.out.println("Blade ID: " + blade13.bladeId);
-        System.out.println("Brand: " + blade13.brand);
-        System.out.println("Material: " + blade13.material);
-        System.out.println("Sharpness Level: " + blade13.sharpnessLevel);
-        System.out.println("Length: " + blade13.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade13.isReusable);
-        System.out.println("Type: " + blade13.type);
+        blade13.GetInfo();
 
         Blade blade14 = new Blade();
         blade14.bladeId = 14;
@@ -219,13 +141,7 @@ class BladeRunner {
         blade14.lengthInCm = 4.3;
         blade14.isReusable = false;
         blade14.type = "Straight Razor";
-        System.out.println("Blade ID: " + blade14.bladeId);
-        System.out.println("Brand: " + blade14.brand);
-        System.out.println("Material: " + blade14.material);
-        System.out.println("Sharpness Level: " + blade14.sharpnessLevel);
-        System.out.println("Length: " + blade14.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade14.isReusable);
-        System.out.println("Type: " + blade14.type);
+        blade14.GetInfo();
 
         Blade blade15 = new Blade();
         blade15.bladeId = 15;
@@ -235,13 +151,7 @@ class BladeRunner {
         blade15.lengthInCm = 4.1;
         blade15.isReusable = true;
         blade15.type = "Single Blade";
-        System.out.println("Blade ID: " + blade15.bladeId);
-        System.out.println("Brand: " + blade15.brand);
-        System.out.println("Material: " + blade15.material);
-        System.out.println("Sharpness Level: " + blade15.sharpnessLevel);
-        System.out.println("Length: " + blade15.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade15.isReusable);
-        System.out.println("Type: " + blade15.type);
+        blade15.GetInfo();
 
         Blade blade16 = new Blade();
         blade16.bladeId = 16;
@@ -251,13 +161,7 @@ class BladeRunner {
         blade16.lengthInCm = 4.4;
         blade16.isReusable = false;
         blade16.type = "Safety Razor";
-        System.out.println("Blade ID: " + blade16.bladeId);
-        System.out.println("Brand: " + blade16.brand);
-        System.out.println("Material: " + blade16.material);
-        System.out.println("Sharpness Level: " + blade16.sharpnessLevel);
-        System.out.println("Length: " + blade16.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade16.isReusable);
-        System.out.println("Type: " + blade16.type);
+        blade16.GetInfo();
 
         Blade blade17 = new Blade();
         blade17.bladeId = 17;
@@ -267,13 +171,7 @@ class BladeRunner {
         blade17.lengthInCm = 4.3;
         blade17.isReusable = false;
         blade17.type = "Disposable";
-        System.out.println("Blade ID: " + blade17.bladeId);
-        System.out.println("Brand: " + blade17.brand);
-        System.out.println("Material: " + blade17.material);
-        System.out.println("Sharpness Level: " + blade17.sharpnessLevel);
-        System.out.println("Length: " + blade17.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade17.isReusable);
-        System.out.println("Type: " + blade17.type);
+        blade17.GetInfo();
 
         Blade blade18 = new Blade();
         blade18.bladeId = 18;
@@ -283,13 +181,7 @@ class BladeRunner {
         blade18.lengthInCm = 4.2;
         blade18.isReusable = false;
         blade18.type = "Straight Razor";
-        System.out.println("Blade ID: " + blade18.bladeId);
-        System.out.println("Brand: " + blade18.brand);
-        System.out.println("Material: " + blade18.material);
-        System.out.println("Sharpness Level: " + blade18.sharpnessLevel);
-        System.out.println("Length: " + blade18.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade18.isReusable);
-        System.out.println("Type: " + blade18.type);
+        blade18.GetInfo();
 
         Blade blade19 = new Blade();
         blade19.bladeId = 19;
@@ -299,13 +191,7 @@ class BladeRunner {
         blade19.lengthInCm = 4.0;
         blade19.isReusable = false;
         blade19.type = "Single Edge";
-        System.out.println("Blade ID: " + blade19.bladeId);
-        System.out.println("Brand: " + blade19.brand);
-        System.out.println("Material: " + blade19.material);
-        System.out.println("Sharpness Level: " + blade19.sharpnessLevel);
-        System.out.println("Length: " + blade19.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade19.isReusable);
-        System.out.println("Type: " + blade19.type);
+        blade19.GetInfo();
 
         Blade blade20 = new Blade();
         blade20.bladeId = 20;
@@ -315,13 +201,7 @@ class BladeRunner {
         blade20.lengthInCm = 4.5;
         blade20.isReusable = true;
         blade20.type = "Cartridge";
-        System.out.println("Blade ID: " + blade20.bladeId);
-        System.out.println("Brand: " + blade20.brand);
-        System.out.println("Material: " + blade20.material);
-        System.out.println("Sharpness Level: " + blade20.sharpnessLevel);
-        System.out.println("Length: " + blade20.lengthInCm + " cm");
-        System.out.println("Reusable: " + blade20.isReusable);
-        System.out.println("Type: " + blade20.type);
+       blade20.GetInfo();
 
         System.out.println("THE MAIN ENDED");
     }

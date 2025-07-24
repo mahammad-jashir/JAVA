@@ -1,4 +1,5 @@
 class KingRunner {
+
     public static void main(String[] args) {
         System.out.println("THE MAIN STARTED");
 
@@ -10,14 +11,7 @@ class KingRunner {
         k1.isFamous = true;
         k1.weapon = "Sword";
         k1.dynasty = "Maurya";
-
-        System.out.println("King ID: " + k1.kingId);
-        System.out.println("Name: " + k1.name);
-        System.out.println("Kingdom: " + k1.kingdom);
-        System.out.println("Reign Period: " + k1.reignPeriod);
-        System.out.println("Is Famous: " + k1.isFamous);
-        System.out.println("Weapon: " + k1.weapon);
-        System.out.println("Dynasty: " + k1.dynasty);
+        k1.getInfo();
 
         King k2 = new King();
         k2.kingId = 2;
@@ -25,320 +19,188 @@ class KingRunner {
         k2.kingdom = "Mughal Empire";
         k2.reignPeriod = "1556–1605";
         k2.isFamous = true;
-        k2.weapon = "Bow & Arrow";
+        k2.weapon = "Sword";
         k2.dynasty = "Mughal";
-
-        System.out.println("King ID: " + k2.kingId);
-        System.out.println("Name: " + k2.name);
-        System.out.println("Kingdom: " + k2.kingdom);
-        System.out.println("Reign Period: " + k2.reignPeriod);
-        System.out.println("Is Famous: " + k2.isFamous);
-        System.out.println("Weapon: " + k2.weapon);
-        System.out.println("Dynasty: " + k2.dynasty);
+        k2.getInfo();
 
         King k3 = new King();
         k3.kingId = 3;
-        k3.name = "Chandragupta Maurya";
-        k3.kingdom = "Maurya Empire";
-        k3.reignPeriod = "321–297 BCE";
+        k3.name = "Shivaji";
+        k3.kingdom = "Maratha Empire";
+        k3.reignPeriod = "1674–1680";
         k3.isFamous = true;
-        k3.weapon = "Spear";
-        k3.dynasty = "Maurya";
-
-        System.out.println("King ID: " + k3.kingId);
-        System.out.println("Name: " + k3.name);
-        System.out.println("Kingdom: " + k3.kingdom);
-        System.out.println("Reign Period: " + k3.reignPeriod);
-        System.out.println("Is Famous: " + k3.isFamous);
-        System.out.println("Weapon: " + k3.weapon);
-        System.out.println("Dynasty: " + k3.dynasty);
+        k3.weapon = "Sword";
+        k3.dynasty = "Bhosale";
+        k3.getInfo();
 
         King k4 = new King();
         k4.kingId = 4;
-        k4.name = "Krishnadevaraya";
-        k4.kingdom = "Vijayanagara Empire";
-        k4.reignPeriod = "1509–1529";
+        k4.name = "Raja Raja Chola I";
+        k4.kingdom = "Chola Empire";
+        k4.reignPeriod = "985–1014";
         k4.isFamous = true;
-        k4.weapon = "Sword";
-        k4.dynasty = "Tuluva";
-
-        System.out.println("King ID: " + k4.kingId);
-        System.out.println("Name: " + k4.name);
-        System.out.println("Kingdom: " + k4.kingdom);
-        System.out.println("Reign Period: " + k4.reignPeriod);
-        System.out.println("Is Famous: " + k4.isFamous);
-        System.out.println("Weapon: " + k4.weapon);
-        System.out.println("Dynasty: " + k4.dynasty);
+        k4.weapon = "Spear";
+        k4.dynasty = "Chola";
+        k4.getInfo();
 
         King k5 = new King();
         k5.kingId = 5;
-        k5.name = "Raja Raja Chola I";
-        k5.kingdom = "Chola Empire";
-        k5.reignPeriod = "985–1014";
+        k5.name = "Kanishka";
+        k5.kingdom = "Kushan Empire";
+        k5.reignPeriod = "127–150 CE";
         k5.isFamous = true;
-        k5.weapon = "Sword";
-        k5.dynasty = "Chola";
-
-        System.out.println("King ID: " + k5.kingId);
-        System.out.println("Name: " + k5.name);
-        System.out.println("Kingdom: " + k5.kingdom);
-        System.out.println("Reign Period: " + k5.reignPeriod);
-        System.out.println("Is Famous: " + k5.isFamous);
-        System.out.println("Weapon: " + k5.weapon);
-        System.out.println("Dynasty: " + k5.dynasty);
+        k5.weapon = "Arrow";
+        k5.dynasty = "Kushan";
+        k5.getInfo();
 
         King k6 = new King();
         k6.kingId = 6;
-        k6.name = "Shivaji";
-        k6.kingdom = "Maratha Empire";
-        k6.reignPeriod = "1674–1680";
-        k6.isFamous = true;
+        k6.name = "Bindusara";
+        k6.kingdom = "Maurya Empire";
+        k6.reignPeriod = "297–273 BCE";
+        k6.isFamous = false;
         k6.weapon = "Sword";
-        k6.dynasty = "Bhosale";
-
-        System.out.println("King ID: " + k6.kingId);
-        System.out.println("Name: " + k6.name);
-        System.out.println("Kingdom: " + k6.kingdom);
-        System.out.println("Reign Period: " + k6.reignPeriod);
-        System.out.println("Is Famous: " + k6.isFamous);
-        System.out.println("Weapon: " + k6.weapon);
-        System.out.println("Dynasty: " + k6.dynasty);
+        k6.dynasty = "Maurya";
+        k6.getInfo();
 
         King k7 = new King();
         k7.kingId = 7;
-        k7.name = "Ranjit Singh";
-        k7.kingdom = "Sikh Empire";
-        k7.reignPeriod = "1801–1839";
+        k7.name = "Jahangir";
+        k7.kingdom = "Mughal Empire";
+        k7.reignPeriod = "1605–1627";
         k7.isFamous = true;
-        k7.weapon = "Saber";
-        k7.dynasty = "Sandhawalia";
-
-        System.out.println("King ID: " + k7.kingId);
-        System.out.println("Name: " + k7.name);
-        System.out.println("Kingdom: " + k7.kingdom);
-        System.out.println("Reign Period: " + k7.reignPeriod);
-        System.out.println("Is Famous: " + k7.isFamous);
-        System.out.println("Weapon: " + k7.weapon);
-        System.out.println("Dynasty: " + k7.dynasty);
+        k7.weapon = "Sword";
+        k7.dynasty = "Mughal";
+        k7.getInfo();
 
         King k8 = new King();
         k8.kingId = 8;
-        k8.name = "Harsha";
-        k8.kingdom = "Vardhana Empire";
-        k8.reignPeriod = "606–647 CE";
+        k8.name = "Rajendra Chola I";
+        k8.kingdom = "Chola Empire";
+        k8.reignPeriod = "1014–1044";
         k8.isFamous = true;
-        k8.weapon = "Bow";
-        k8.dynasty = "Vardhana";
-
-        System.out.println("King ID: " + k8.kingId);
-        System.out.println("Name: " + k8.name);
-        System.out.println("Kingdom: " + k8.kingdom);
-        System.out.println("Reign Period: " + k8.reignPeriod);
-        System.out.println("Is Famous: " + k8.isFamous);
-        System.out.println("Weapon: " + k8.weapon);
-        System.out.println("Dynasty: " + k8.dynasty);
-
-        // Objects from k9 to k20 continue the same format
+        k8.weapon = "Spear";
+        k8.dynasty = "Chola";
+        k8.getInfo();
 
         King k9 = new King();
         k9.kingId = 9;
-        k9.name = "Bindusara";
-        k9.kingdom = "Maurya Empire";
-        k9.reignPeriod = "297–273 BCE";
-        k9.isFamous = false;
-        k9.weapon = "Spear";
-        k9.dynasty = "Maurya";
+        k9.name = "Krishna Deva Raya";
+        k9.kingdom = "Vijayanagara Empire";
+        k9.reignPeriod = "1509–1529";
+        k9.isFamous = true;
+        k9.weapon = "Sword";
+        k9.dynasty = "Tuluva";
+        k9.getInfo();
 
-        System.out.println("King ID: " + k9.kingId);
-        System.out.println("Name: " + k9.name);
-        System.out.println("Kingdom: " + k9.kingdom);
-        System.out.println("Reign Period: " + k9.reignPeriod);
-        System.out.println("Is Famous: " + k9.isFamous);
-        System.out.println("Weapon: " + k9.weapon);
-        System.out.println("Dynasty: " + k9.dynasty);
-
-          King k10 = new King();
+        King k10 = new King();
         k10.kingId = 10;
-        k10.name = "Kanishka";
-        k10.kingdom = "Kushan Empire";
-        k10.reignPeriod = "127–150 CE";
+        k10.name = "Bimbisara";
+        k10.kingdom = "Magadha";
+        k10.reignPeriod = "558–491 BCE";
         k10.isFamous = true;
-        k10.weapon = "Chariot";
-        k10.dynasty = "Kushan";
-
-        System.out.println("King ID: " + k10.kingId);
-        System.out.println("Name: " + k10.name);
-        System.out.println("Kingdom: " + k10.kingdom);
-        System.out.println("Reign Period: " + k10.reignPeriod);
-        System.out.println("Is Famous: " + k10.isFamous);
-        System.out.println("Weapon: " + k10.weapon);
-        System.out.println("Dynasty: " + k10.dynasty);
+        k10.weapon = "Bow";
+        k10.dynasty = "Haryanka";
+        k10.getInfo();
 
         King k11 = new King();
         k11.kingId = 11;
-        k11.name = "Prithviraj Chauhan";
-        k11.kingdom = "Chahamana Dynasty";
-        k11.reignPeriod = "1178–1192 CE";
+        k11.name = "Harshavardhana";
+        k11.kingdom = "Pushyabhuti Empire";
+        k11.reignPeriod = "606–647 CE";
         k11.isFamous = true;
-        k11.weapon = "Bow";
-        k11.dynasty = "Chauhan";
-
-        System.out.println("King ID: " + k11.kingId);
-        System.out.println("Name: " + k11.name);
-        System.out.println("Kingdom: " + k11.kingdom);
-        System.out.println("Reign Period: " + k11.reignPeriod);
-        System.out.println("Is Famous: " + k11.isFamous);
-        System.out.println("Weapon: " + k11.weapon);
-        System.out.println("Dynasty: " + k11.dynasty);
+        k11.weapon = "Sword";
+        k11.dynasty = "Vardhana";
+        k11.getInfo();
 
         King k12 = new King();
         k12.kingId = 12;
         k12.name = "Pulakeshin II";
-        k12.kingdom = "Chalukya Empire";
+        k12.kingdom = "Chalukya Dynasty";
         k12.reignPeriod = "610–642 CE";
         k12.isFamous = true;
-        k12.weapon = "Axe";
+        k12.weapon = "Sword";
         k12.dynasty = "Chalukya";
-
-        System.out.println("King ID: " + k12.kingId);
-        System.out.println("Name: " + k12.name);
-        System.out.println("Kingdom: " + k12.kingdom);
-        System.out.println("Reign Period: " + k12.reignPeriod);
-        System.out.println("Is Famous: " + k12.isFamous);
-        System.out.println("Weapon: " + k12.weapon);
-        System.out.println("Dynasty: " + k12.dynasty);
+        k12.getInfo();
 
         King k13 = new King();
         k13.kingId = 13;
-        k13.name = "Bimbisara";
-        k13.kingdom = "Magadha";
-        k13.reignPeriod = "544–492 BCE";
+        k13.name = "Prithviraj Chauhan";
+        k13.kingdom = "Ajmer & Delhi";
+        k13.reignPeriod = "1178–1192";
         k13.isFamous = true;
-        k13.weapon = "Spear";
-        k13.dynasty = "Haryanka";
-
-        System.out.println("King ID: " + k13.kingId);
-        System.out.println("Name: " + k13.name);
-        System.out.println("Kingdom: " + k13.kingdom);
-        System.out.println("Reign Period: " + k13.reignPeriod);
-        System.out.println("Is Famous: " + k13.isFamous);
-        System.out.println("Weapon: " + k13.weapon);
-        System.out.println("Dynasty: " + k13.dynasty);
+        k13.weapon = "Bow";
+        k13.dynasty = "Chauhan";
+        k13.getInfo();
 
         King k14 = new King();
         k14.kingId = 14;
         k14.name = "Samudragupta";
         k14.kingdom = "Gupta Empire";
-        k14.reignPeriod = "335–375 CE";
+        k14.reignPeriod = "c. 335–375 CE";
         k14.isFamous = true;
         k14.weapon = "Sword";
         k14.dynasty = "Gupta";
-
-        System.out.println("King ID: " + k14.kingId);
-        System.out.println("Name: " + k14.name);
-        System.out.println("Kingdom: " + k14.kingdom);
-        System.out.println("Reign Period: " + k14.reignPeriod);
-        System.out.println("Is Famous: " + k14.isFamous);
-        System.out.println("Weapon: " + k14.weapon);
-        System.out.println("Dynasty: " + k14.dynasty);
+        k14.getInfo();
 
         King k15 = new King();
         k15.kingId = 15;
-        k15.name = "Vikramaditya";
-        k15.kingdom = "Ujjain";
-        k15.reignPeriod = "1st Century BCE";
-        k15.isFamous = true;
-        k15.weapon = "Sword";
-        k15.dynasty = "Unknown";
-
-        System.out.println("King ID: " + k15.kingId);
-        System.out.println("Name: " + k15.name);
-        System.out.println("Kingdom: " + k15.kingdom);
-        System.out.println("Reign Period: " + k15.reignPeriod);
-        System.out.println("Is Famous: " + k15.isFamous);
-        System.out.println("Weapon: " + k15.weapon);
-        System.out.println("Dynasty: " + k15.dynasty);
+        k15.name = "Dharma Raja";
+        k15.kingdom = "Travancore";
+        k15.reignPeriod = "1758–1798";
+        k15.isFamous = false;
+        k15.weapon = "Spear";
+        k15.dynasty = "Travancore";
+        k15.getInfo();
 
         King k16 = new King();
         k16.kingId = 16;
-        k16.name = "Rajendra Chola I";
-        k16.kingdom = "Chola Empire";
-        k16.birthYear = 971;
-        k16.reignStartYear = 1014;
-        k16.reignEndYear = 1044;
+        k16.name = "Lalitaditya Muktapida";
+        k16.kingdom = "Karkota Dynasty";
+        k16.reignPeriod = "724–760 CE";
         k16.isFamous = true;
-        System.out.println("King ID: " + k16.kingId);
-        System.out.println("Name: " + k16.name);
-        System.out.println("Kingdom: " + k16.kingdom);
-        System.out.println("Birth Year: " + k16.birthYear);
-        System.out.println("Reign Start: " + k16.reignStartYear);
-        System.out.println("Reign End: " + k16.reignEndYear);
-        System.out.println("Famous: " + k16.isFamous);
+        k16.weapon = "Sword";
+        k16.dynasty = "Karkota";
+        k16.getInfo();
 
         King k17 = new King();
         k17.kingId = 17;
-        k17.name = "Lalitaditya Muktapida";
-        k17.kingdom = "Karkota Dynasty";
-        k17.birthYear = 700;
-        k17.reignStartYear = 724;
-        k17.reignEndYear = 760;
+        k17.name = "Raja Bhoj";
+        k17.kingdom = "Malwa";
+        k17.reignPeriod = "1010–1055 CE";
         k17.isFamous = true;
-        System.out.println("King ID: " + k17.kingId);
-        System.out.println("Name: " + k17.name);
-        System.out.println("Kingdom: " + k17.kingdom);
-        System.out.println("Birth Year: " + k17.birthYear);
-        System.out.println("Reign Start: " + k17.reignStartYear);
-        System.out.println("Reign End: " + k17.reignEndYear);
-        System.out.println("Famous: " + k17.isFamous);
+        k17.weapon = "Sword";
+        k17.dynasty = "Paramara";
+        k17.getInfo();
 
         King k18 = new King();
         k18.kingId = 18;
-        k18.name = "Mahapadma Nanda";
-        k18.kingdom = "Nanda Dynasty";
-        k18.birthYear = -450;
-        k18.reignStartYear = -345;
-        k18.reignEndYear = -329;
-        k18.isFamous = false;
-        System.out.println("King ID: " + k18.kingId);
-        System.out.println("Name: " + k18.name);
-        System.out.println("Kingdom: " + k18.kingdom);
-        System.out.println("Birth Year: " + k18.birthYear);
-        System.out.println("Reign Start: " + k18.reignStartYear);
-        System.out.println("Reign End: " + k18.reignEndYear);
-        System.out.println("Famous: " + k18.isFamous);
+        k18.name = "Mahendravarman I";
+        k18.kingdom = "Pallava";
+        k18.reignPeriod = "600–630 CE";
+        k18.isFamous = true;
+        k18.weapon = "Spear";
+        k18.dynasty = "Pallava";
+        k18.getInfo();
 
         King k19 = new King();
         k19.kingId = 19;
-        k19.name = "Porus";
-        k19.kingdom = "Paurava";
-        k19.birthYear = -340;
-        k19.reignStartYear = -325;
-        k19.reignEndYear = -315;
+        k19.name = "Ajatashatru";
+        k19.kingdom = "Magadha";
+        k19.reignPeriod = "491–461 BCE";
         k19.isFamous = true;
-        System.out.println("King ID: " + k19.kingId);
-        System.out.println("Name: " + k19.name);
-        System.out.println("Kingdom: " + k19.kingdom);
-        System.out.println("Birth Year: " + k19.birthYear);
-        System.out.println("Reign Start: " + k19.reignStartYear);
-        System.out.println("Reign End: " + k19.reignEndYear);
-        System.out.println("Famous: " + k19.isFamous);
+        k19.weapon = "Mace";
+        k19.dynasty = "Haryanka";
+        k19.getInfo();
 
         King k20 = new King();
         k20.kingId = 20;
-        k20.name = "Shashanka";
-        k20.kingdom = "Gauda Kingdom";
-        k20.birthYear = 590;
-        k20.reignStartYear = 600;
-        k20.reignEndYear = 625;
+        k20.name = "Tipu Sultan";
+        k20.kingdom = "Mysore";
+        k20.reignPeriod = "1782–1799";
         k20.isFamous = true;
-        System.out.println("King ID: " + k20.kingId);
-        System.out.println("Name: " + k20.name);
-        System.out.println("Kingdom: " + k20.kingdom);
-        System.out.println("Birth Year: " + k20.birthYear);
-        System.out.println("Reign Start: " + k20.reignStartYear);
-        System.out.println("Reign End: " + k20.reignEndYear);
-        System.out.println("Famous: " + k20.isFamous);
-
-        System.out.println("THE MAIN ENDED");
+        k20.weapon = "Rocket";
+        k20.dynasty = "Sultanate of Mysore";
+        k20.getInfo();
     }
 }
